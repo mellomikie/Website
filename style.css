@@ -3,7 +3,13 @@
 body {
   font-family: "Georgia", "Garamond", serif;
   font-size: 12pt;
-  /* background-color: #e0e0d1; */
   margin: 0em;
   padding: 0em;
+}
+
+.flash span {
+  background-color: #ffffcc;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: #ccccaa;
 }
