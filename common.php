@@ -14,10 +14,12 @@ function head($styles = NULL, $scripts = NULL) {
       -->
       <link href="style.css" type="text/css" rel="stylesheet" />
 
-      <?php
-      add_styles($styles);
-      add_scripts($scripts);
-      ?>
+      <?php add_styles($styles); ?>
+
+      <script src="https://use.typekit.net/szu5vdq.js"></script>
+      <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+      <?php add_scripts($scripts); ?>
 
     </head>
     <body>
