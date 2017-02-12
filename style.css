@@ -1,0 +1,9 @@
+/* This is the style sheet for my website. */
+
+body {
+  font-family: "Georgia", "Garamond", serif;
+  font-size: 12pt;
+  /* background-color: #e0e0d1; */
+  margin: 0em;
+  padding: 0em;
+}
