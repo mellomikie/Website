@@ -2,7 +2,7 @@
 
 body {
   font-family: "adobe-garamond-pro", "Garamond", serif;
-  font-size: 10pt;
+  font-size: 12pt;
   margin: 0em;
   padding: 0em;
 }
@@ -28,7 +28,7 @@ body {
   padding-bottom: 80px;
 }
 
-#about .h1 {
+#about h1 {
   font-family: "europa", serif;
   font-size: .6em;
   font-weight: 300;
@@ -37,7 +37,8 @@ body {
   text-transform: uppercase;
 }
 
-#about .p {
+#about p {
+  color: #747474;
   margin-left: auto;
   margin-right: auto;
   width: 440px;
