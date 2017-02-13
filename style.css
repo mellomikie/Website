@@ -3,6 +3,7 @@
 body {
   font-family: "adobe-garamond-pro", "Garamond", serif;
   font-size: 12pt;
+  line-height: 28px;
   margin: 0em;
   padding: 0em;
 }
@@ -30,7 +31,7 @@ body {
 
 #about h1 {
   font-family: "europa", serif;
-  font-size: .6em;
+  font-size: 1em;
   font-weight: 300;
   letter-spacing: .13em;
   text-align: center;
