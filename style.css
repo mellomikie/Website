@@ -15,5 +15,11 @@ body {
 }
 
 /* TODO add style for head id */
+
+#logo {
+  width: 120px;
+  margin: 85px auto;
+}
+
 /* TODO add style for portfolio id */
 /* TODO add style for portfolio-item class */

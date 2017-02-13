@@ -24,7 +24,7 @@ function head($styles = NULL, $scripts = NULL) {
     <body>
       <div id="head">
         <a href="mellomikie.com">
-          <img src="images/home/logoforweb.svg" alt="Michael's logo" />
+          <img id="logo" src="images/home/logoforweb.svg" alt="Michael's logo" />
         </a>
       </div>
 
