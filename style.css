@@ -17,8 +17,9 @@ body {
 /* TODO add style for head id */
 
 #logo {
-  width: 120px;
+  width: 130px;
   margin: 85px auto;
+  display: block;
 }
 
 /* TODO add style for portfolio id */

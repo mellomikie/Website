@@ -44,7 +44,7 @@ function foot() {
 
 # Adds (links) given CSS files to page.
 function add_styles($styles) {
-  foreach ($styles as $style) {
+  foreach ((array) $styles as $style) {
     ?>
 
     <link href="<?= $style ?>" type="text/css" rel="stylesheet" />
@@ -55,7 +55,7 @@ function add_styles($styles) {
 
 # Adds given JavaScript files to page.
 function add_scripts($scripts) {
-  foreach ($scripts as $script) {
+  foreach ((array) $scripts as $script) {
     ?>
 
     <script src="<?= $script ?>" type="text/javascript"></script>
