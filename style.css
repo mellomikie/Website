@@ -22,5 +22,26 @@ body {
   display: block;
 }
 
+#about {
+  background-color: #e4e4e4;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+#about .h1 {
+  font-family: "europa", serif;
+  font-size: .6em;
+  font-weight: 300;
+  letter-spacing: .13em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about .p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 440px;
+}
+
 /* TODO add style for portfolio id */
 /* TODO add style for portfolio-item class */
