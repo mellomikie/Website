@@ -1,8 +1,8 @@
-/* This is the style sheet for my website. */
+/* This is the style sheet for Michael's website. */
 
 body {
-  font-family: "Georgia", "Garamond", serif;
-  font-size: 12pt;
+  font-family: "adobe-garamond-pro", "Garamond", serif;
+  font-size: 10pt;
   margin: 0em;
   padding: 0em;
 }
@@ -13,3 +13,7 @@ body {
   border-style: dotted;
   border-color: #ccccaa;
 }
+
+/* TODO add style for head id */
+/* TODO add style for portfolio id */
+/* TODO add style for portfolio-item class */

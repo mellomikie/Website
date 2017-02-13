@@ -1,5 +1,6 @@
 <?php
-# This is the PHP file for common code on my website.
+# This is the PHP file for common code on Michael's website.
+
 # Prints page header with the given style sheets and scripts.
 function head($styles = NULL, $scripts = NULL) {
   ?>
@@ -9,9 +10,7 @@ function head($styles = NULL, $scripts = NULL) {
     <head>
       <meta charset="utf-8" />
       <title>Michael Woody's Website</title>
-      <!--
-      <link href="images/icon.gif" type="image/gif" rel="shortcut icon" />
-      -->
+      <link href="images/home/favicon.svg" type="image/svg" rel="shortcut icon" />
       <link href="style.css" type="text/css" rel="stylesheet" />
 
       <?php add_styles($styles); ?>
@@ -24,7 +23,9 @@ function head($styles = NULL, $scripts = NULL) {
     </head>
     <body>
       <div id="head">
-        <!-- TODO add header icon here -->
+        <a href="mellomikie.com">
+          <img src="images/home/logoforweb.svg" alt="Michael's logo" />
+        </a>
       </div>
 
         <?php
