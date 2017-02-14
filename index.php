@@ -16,6 +16,10 @@ head();
     experiences, brand identities and engaging visual designs. His love for
     travel and years living in Japan influence his approach to design.
   </p>
+  <div id="email">
+    <a href="mailto:hi@mellomikie.com">hi@mellomikie.com</a>
+  </div>
+  <!-- TODO add widget -->
 </div>
 
 <?php foot(); ?>

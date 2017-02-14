@@ -24,11 +24,11 @@ function head($styles = NULL, $scripts = NULL) {
 
     </head>
     <body>
-      <div id="head">
+      <header>
         <a href="mellomikie.com">
           <img src="images/home/logoforweb.svg" alt="Michael's logo" />
         </a>
-      </div>
+      </header>
 
         <?php
 }

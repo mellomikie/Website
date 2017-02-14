@@ -17,11 +17,11 @@ body {
 
 /* Style rules for header of page */
 
-#head {
+header {
   text-align: center;
 }
 
-#head img {
+header img {
   width: 130px;
 }
 
@@ -49,6 +49,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+}
+
+#email {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#email a {
+  font-family: "europa", serif;
+  font-size: .9em;
 }
 
 /* Style rules for portfolio */
