@@ -8,8 +8,10 @@ function head($styles = NULL, $scripts = NULL) {
   <!DOCTYPE html>
   <html>
     <head>
-      <meta charset="utf-8" />
       <title>Michael Woody's Website</title>
+      <meta charset="utf-8" />
+      <meta name="description" content="Michael Woody is a graphic designer in Seattle, Washington." />
+      <meta name="keywords" content="web design, user experience design, package design, visual design, minimalist" />
       <link href="images/home/favicon.svg" type="image/svg" rel="shortcut icon" />
       <link href="style.css" type="text/css" rel="stylesheet" />
 
@@ -24,7 +26,7 @@ function head($styles = NULL, $scripts = NULL) {
     <body>
       <div id="head">
         <a href="mellomikie.com">
-          <img id="logo" src="images/home/logoforweb.svg" alt="Michael's logo" />
+          <img src="images/home/logoforweb.svg" alt="Michael's logo" />
         </a>
       </div>
 

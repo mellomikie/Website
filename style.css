@@ -15,13 +15,17 @@ body {
   border-color: #ccccaa;
 }
 
-/* TODO add style for head id or remove id */
+/* Style rules for header of page */
 
-#logo {
-  width: 130px;
-  margin: 85px auto;
-  display: block;
+#head {
+  text-align: center;
 }
+
+#head img {
+  width: 130px;
+}
+
+/* Style rules for section about Michael */
 
 #about {
   background-color: #e4e4e4;
