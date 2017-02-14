@@ -15,7 +15,7 @@ body {
   border-color: #ccccaa;
 }
 
-/* TODO add style for head id */
+/* TODO add style for head id or remove id */
 
 #logo {
   width: 130px;
@@ -46,5 +46,5 @@ body {
   width: 470px;
 }
 
-/* TODO add style for portfolio id */
-/* TODO add style for portfolio-item class */
+/* TODO add style for portfolio id or remove id */
+/* TODO add style for portfolio-item class or remove class */

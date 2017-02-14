@@ -2,19 +2,20 @@
 # This is the PHP file for displaying the portfolio on the main page of
 # Michael's website.
 
-# TODO implement object for portfolio item
-# TODO add portfolio items to array
-$items = Array();
+include("Project.php");
+
+# TODO add projects to portfolio
+$portfolio = array();
 ?>
 
 <div id="portfolio">
 
-  <?php foreach ($items as $item) { ?>
+  <?php foreach ($portfolio as $project) { ?>
 
-    <div class="portfolio-item">
-      <a href="">
-        <span></span>
-        <img src="" alt="" />
+    <div class="project">
+      <a href="<?= $project->getLink() ?>">
+        <span><?= $project->getTitle() ?></span>
+        <img src="<?= $project->getImage() ?>" alt="<?= $project->getImageTitle() ?>" />
       </a>
     </div>
 

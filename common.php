@@ -15,8 +15,8 @@ function head($styles = NULL, $scripts = NULL) {
 
       <?php add_styles($styles); ?>
 
-      <script src="https://use.typekit.net/szu5vdq.js"></script>
-      <script>try{Typekit.load({ async: true });}catch(e){}</script>
+      <script src="https://use.typekit.net/szu5vdq.js" type="text/javascript"></script>
+      <script src="main.js" type="text/javascript"></script>
 
       <?php add_scripts($scripts); ?>
 
