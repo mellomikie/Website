@@ -8,6 +8,7 @@ head();
 
 <div id="about">
   <h1>About Michael</h1>
+
   <p>
     Michael is a creative thinker and designer. With a background in Psychology,
     he approaches design with a balance of research, behavioral perspective,
@@ -16,10 +17,32 @@ head();
     experiences, brand identities and engaging visual designs. His love for
     travel and years living in Japan influence his approach to design.
   </p>
+
   <div id="email">
     <a href="mailto:hi@mellomikie.com">hi@mellomikie.com</a>
   </div>
-  <!-- TODO add widget -->
+
+  <ul id="social">
+    <li>
+      <a href="http://www.facebook.com/michael.woody.10">
+        <img src="images/home/facebook.png" alt="Facebook" />
+      </a>
+    </li>
+    <li>
+      <a href="http://www.linkedin.com/in/michael-woody-64a6507">
+        <img src="images/home/linkedin.png" alt="LinkedIn" />
+      </a>
+    </li>
+    <li>
+      <a href="http://www.instagram.com/mellomikie">
+        <img src="images/home/instagram.png" alt="Instagram" />
+      </a>
+    </li>
+  </ul>
+
+  <div id="resume">
+    <a href="documents/mwresume.pdf">View Resume</a>
+  </div>
 </div>
 
 <?php foot(); ?>
