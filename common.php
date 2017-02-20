@@ -37,9 +37,7 @@ function head($styles = NULL, $scripts = NULL) {
 function foot() {
   ?>
 
-    <footer>
-      <!-- TODO add footer here -->
-    </footer>
+      <footer><!-- TODO add footer here --></footer>
     </body>
   </html>
 
