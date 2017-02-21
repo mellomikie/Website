@@ -8,15 +8,21 @@ $styles = array("posters.css");
 head($styles);
 ?>
 
-<img src="images/posters/postersintroimage1.jpg" alt="Poster" />
+<div>
+  <img src="images/posters/postersintroimage1.jpg" alt="Posters" />
+</div>
 
 <h1>Posters</h1>
 
 <p>The following is a collection of posters that I designed.</p>
 
 <div class="poster">
-  <img src="images/posters/fucklifeposter1.jpg" alt="Lemons" />
+  <div>
+    <img src="images/posters/fucklifeposter1.jpg" alt="Lemons" />
+  </div>
+
   <h2>Lemons</h2>
+
   <p>
     This poster was designed as a way to express anger in a fun and
     interesting way. So often we hold in our anger and are told that we
@@ -27,8 +33,12 @@ head($styles);
 </div>
 
 <div class="poster">
-  <img src="images/posters/snowfallingposter.jpg" alt="Snow Falling on Cedars" />
+  <div>
+    <img src="images/posters/snowfallingposter.jpg" alt="Snow Falling on Cedars" />
+  </div>
+
   <h2>Snow Falling on Cedars</h2>
+
   <p>
     Drawing on the themes of love and memory, I created illustrations that
     captured the core essence of the play. Red flecks on the poster reference
@@ -37,8 +47,12 @@ head($styles);
 </div>
 
 <div class="poster">
-  <img src="images/posters/antiquecatposter.jpg" alt="Antique Cat" />
+  <div>
+    <img src="images/posters/antiquecatposter.jpg" alt="Antique cat" />
+  </div>
+
   <h2>Antique Cat</h2>
+
   <p>
     Appealing to a niche market of those interested in both cats and Japanese
     culture, I designed a poster based on a craigslist ad that featured an
@@ -47,8 +61,12 @@ head($styles);
 </div>
 
 <div class="poster">
-  <img src="images/posters/dimsumposter.jpg" alt="Dim Sum" />
+  <div>
+    <img src="images/posters/dimsumposter.jpg" alt="Dim sum" />
+  </div>
+
   <h2>Dim Sum</h2>
+
   <p>
     This poster is inspired by the variety of delicious food that comes with
     dim sum as well as my love for puns.
