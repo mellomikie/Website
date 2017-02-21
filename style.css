@@ -1,111 +1,74 @@
 /* This is the style sheet for Michael's website. */
 
+/* TODO add CSS variables */
+
+/* Global style rules */
+
 body {
   font-family: "adobe-garamond-pro", "Garamond", serif;
   font-size: 12pt;
+  text-align: center;
   line-height: 28px;
   margin: 0em;
   padding: 0em;
   background-color: white;
 }
 
+h1, h2 {
+  font-family: "europa", serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 1em;
+  letter-spacing: .1em;
+}
+
+h2 {
+  font-size: .8em;
+  letter-spacing: .05em;
+}
+
+p {
+  font-family: "adobe-garamond-pro", "Garamond", serif;
+  text-align: justify; /* text-align: left; */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
 }
 
-.flash span {
+.flash {
+  text-align: center;
+}
+
+.flash > span {
   background-color: #ffffcc;
   border-width: 2px;
   border-style: dotted;
   border-color: #ccccaa;
 }
 
-/* Style rules for header of page */
-
 header {
   text-align: center;
-  padding-top: 85px;
-  padding-bottom: 85px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 header img {
   width: 130px;
 }
 
-/* Style rules for section about Michael */
-
-#about {
-  background-color: #e4e4e4;
-  padding-top: 100px;
-  padding-bottom: 80px;
-}
-
-#about h1 {
-  font-family: "europa", serif;
-  font-size: 1em;
-  font-weight: 300;
-  letter-spacing: .13em;
-  color: #808080;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-#about p {
-  color: #959595;
-  /* text-align: justify; */
-  margin-left: auto;
-  margin-right: auto;
-  width: 470px;
-}
-
-#email {
-  text-align: center;
-  margin-top: 50px;
-}
-
-#email a {
-  font-family: "europa", serif;
-  font-size: .9em;
-  color: #808080;
-}
-
-#social {
-  list-style-type: none;
-  padding-left: 0px;
-  display: flex;
-  justify-content: space-between;
-  width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-}
-
-#social img {
-  width: 25px;
-  height: 25px;
-}
-
-#resume {
-  text-align: center;
-  background-color: white;
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 10px;
-}
-
-#resume a {
-  font-family: "europa", serif;
-  font-size: .8em;
-  font-weight: 300;
-  letter-spacing: .05em;
-  color: #808080;
-  text-transform: uppercase;
-}
-
-/* Style rules for portfolio */
-
-/* TODO add style for portfolio id or remove id */
-/* TODO add style for portfolio-item class or remove class */
+/* TODO add style rules for footer of page or remove footer */
+/* TODO add style rules for portfolio */
+/* TODO add style rules for portfolio id or remove id */
+/* TODO add style rules for portfolio-item class or remove class */

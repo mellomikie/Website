@@ -1,38 +1,20 @@
 /* This is the style sheet for the posters project page of Michael's website. */
 
-#intro img {
-  width: 100%;
+h1 {
+  margin-top: 80px;
 }
 
-#content {
-  text-align: center;
-  color: #555555;
-  width: 570px;
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 80px;
+}
+
+div.poster {
+  text-align: justify; /* text-align: left; */
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
-}
-
-#content h1, #content h2 {
-  font-family: "europa", serif;
-  font-weight: 300;
-  letter-spacing: .13em;
-  text-transform: uppercase;
-}
-
-#content h1 {
-  font-size: 1.2em;
-}
-
-#content h2 {
-  font-size: 1em;
-}
-
-#content img {
-  width: 570px;
-  height: 570px;
-}
-
-#content p {
-  text-align: left;
-  margin-bottom: 80px;
 }

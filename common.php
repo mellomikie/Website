@@ -25,7 +25,7 @@ function head($styles = NULL, $scripts = NULL) {
     </head>
     <body>
       <header>
-        <a href="mellomikie.com">
+        <a href="mellomikie.com" target="_blank">
           <img src="images/home/logoforweb.svg" alt="Michael's logo" />
         </a>
       </header>
@@ -37,7 +37,7 @@ function head($styles = NULL, $scripts = NULL) {
 function foot() {
   ?>
 
-      <footer><!-- TODO add footer here --></footer>
+      <footer></footer>
     </body>
   </html>
 

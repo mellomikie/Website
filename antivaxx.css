@@ -1,0 +1,19 @@
+/* This is the style sheet for the antivaxx project page of Michael's website. */
+
+h1 {
+  margin-top: 80px;
+}
+
+h1 > span {
+  font-size: 0.8em;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 80px;
+}
