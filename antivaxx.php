@@ -10,7 +10,6 @@ head($styles);
 
 <img src="images/antivaxx/AVintroimagedesktop.jpg" alt="anti-vaxxers" />
 
-
 <h1>
   Who are the Anti-Vaxxers?
   <br />
