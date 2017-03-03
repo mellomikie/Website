@@ -6,19 +6,19 @@ function head($styles = NULL, $scripts = NULL) {
   ?>
 
   <!DOCTYPE html>
-  <html>
+  <html lang="en">
     <head>
       <title>Michael Woody's Website</title>
       <meta charset="utf-8" />
       <meta name="description" content="Michael Woody is a graphic designer in Seattle, Washington." />
       <meta name="keywords" content="web design, user experience design, package design, visual design, minimalist" />
       <link href="images/home/favicon.svg" type="image/svg" rel="shortcut icon" />
-      <link href="style.css" type="text/css" rel="stylesheet" />
+      <link href="styles/style.css" type="text/css" rel="stylesheet" />
 
       <?php add_styles($styles); ?>
 
       <script src="https://use.typekit.net/szu5vdq.js" type="text/javascript"></script>
-      <script src="main.js" type="text/javascript"></script>
+      <script src="scripts/main.js" type="text/javascript"></script>
 
       <?php add_scripts($scripts); ?>
 

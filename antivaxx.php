@@ -3,7 +3,7 @@
 
 include("common.php");
 
-$styles = array("antivaxx.css");
+$styles = array("styles/antivaxx.css");
 
 head($styles);
 ?>
