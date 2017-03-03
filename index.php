@@ -3,9 +3,11 @@
 
 include("common.php");
 
-$styles = array("styles/index.css");
+$styles = array("styles/index.css", "styles/portfolio.css");
 
 head($styles);
+
+include("portfolio.php");
 ?>
 
 <div id="about">

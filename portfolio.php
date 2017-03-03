@@ -5,7 +5,10 @@
 include("Project.php");
 
 # TODO add projects to portfolio
-$portfolio = array();
+$posters = new Project("Posters", "posters.php", "images/posters/postersfeaturedimageslow1.gif", "Posters");
+$antivaxx = new Project("Who are the Anti-Vaxxers?", "antivaxx.php", "images/antivaxx/AVfeaturedimage1.gif", "Anti-vaxxers");
+
+$portfolio = array($posters, $antivaxx);
 ?>
 
 <div id="portfolio">
@@ -13,8 +16,8 @@ $portfolio = array();
   <?php foreach ($portfolio as $project) { ?>
 
     <div class="project">
+      <h2><?= $project->getTitle() ?></h2>
       <a href="<?= $project->getLink() ?>">
-        <span><?= $project->getTitle() ?></span>
         <img src="<?= $project->getImage() ?>" alt="<?= $project->getImageTitle() ?>" />
       </a>
     </div>

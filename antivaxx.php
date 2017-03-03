@@ -8,7 +8,7 @@ $styles = array("styles/antivaxx.css");
 head($styles);
 ?>
 
-<img src="images/antivaxx/AVintroimagedesktop.jpg" alt="anti-vaxxers" />
+<img src="images/antivaxx/AVintroimagedesktop.jpg" alt="Anti-vaxxers" />
 
 <h1>
   Who are the Anti-Vaxxers?
