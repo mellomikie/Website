@@ -1,0 +1,63 @@
+/*
+This is the style sheet for the Texas art and film project page of Michael's
+website.
+*/
+
+body > img, #website > img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 40px;
+}
+
+img + img {
+  margin-top: 20px;
+}
+
+#festivals {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: 320px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  /* background-color: #eaeaea; */
+}
+
+#festivals > img {
+  width: 320px;
+}
+
+#festivals > div, #festivals p {
+  width: 320px;
+}
+
+#website {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#visit {
+  text-align: center;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eaeaea;
+}
+
+#visit a {
+  font-family: "europa", serif;
+  font-size: .9em;
+  font-weight: 300;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: black;
+}

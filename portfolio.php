@@ -7,8 +7,9 @@ include("Project.php");
 # TODO add projects to portfolio
 $posters = new Project("Posters", "posters.php", "images/posters/postersfeaturedimageslow1.gif", "Posters");
 $antivaxx = new Project("Who are the Anti-Vaxxers?", "antivaxx.php", "images/antivaxx/AVfeaturedimage1.gif", "Anti-vaxxers");
+$taf = new Project("Texas Art &amp; Film", "taf.php", "images/taf/taf_ftd_image_1000x1000.jpg", "Texas Art &amp; Film");
 
-$portfolio = array($posters, $antivaxx);
+$portfolio = array($posters, $antivaxx, $taf);
 ?>
 
 <div id="portfolio">
