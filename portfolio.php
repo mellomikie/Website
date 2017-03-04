@@ -8,8 +8,9 @@ include("Project.php");
 $posters = new Project("Posters", "posters.php", "images/posters/postersfeaturedimageslow1.gif", "Posters");
 $antivaxx = new Project("Who are the Anti-Vaxxers?", "antivaxx.php", "images/antivaxx/AVfeaturedimage1.gif", "Anti-vaxxers");
 $taf = new Project("Texas Art &amp; Film", "taf.php", "images/taf/taf_ftd_image_1000x1000.jpg", "Texas Art &amp; Film");
+$anne = new Project("Anne Douglass Therapy", "anne.php", "images/anne/annedouglassfeaturedimage.jpg", "Anne Douglass");
 
-$portfolio = array($posters, $antivaxx, $taf);
+$portfolio = array($anne, $taf, $antivaxx, $posters);
 ?>
 
 <div id="portfolio">
