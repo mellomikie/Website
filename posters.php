@@ -8,18 +8,14 @@ $styles = array("styles/posters.css");
 head($styles);
 ?>
 
-<div>
-  <img src="images/posters/postersintroimage1.jpg" alt="Posters" />
-</div>
+<img src="images/posters/postersintroimage1.jpg" alt="Posters" />
 
 <h1>Posters</h1>
 
 <p>The following is a collection of posters that I designed.</p>
 
 <div class="poster">
-  <div>
-    <img src="images/posters/fucklifeposter1.jpg" alt="Lemons" />
-  </div>
+  <img src="images/posters/fucklifeposter1.jpg" alt="Lemons" />
 
   <h2>Lemons</h2>
 
@@ -33,9 +29,7 @@ head($styles);
 </div>
 
 <div class="poster">
-  <div>
-    <img src="images/posters/snowfallingposter.jpg" alt="Snow Falling on Cedars" />
-  </div>
+  <img src="images/posters/snowfallingposter.jpg" alt="Snow Falling on Cedars" />
 
   <h2>Snow Falling on Cedars</h2>
 
@@ -47,9 +41,7 @@ head($styles);
 </div>
 
 <div class="poster">
-  <div>
-    <img src="images/posters/antiquecatposter.jpg" alt="Antique cat" />
-  </div>
+  <img src="images/posters/antiquecatposter.jpg" alt="Antique cat" />
 
   <h2>Antique Cat</h2>
 
@@ -61,9 +53,7 @@ head($styles);
 </div>
 
 <div class="poster">
-  <div>
-    <img src="images/posters/dimsumposter.jpg" alt="Dim sum" />
-  </div>
+  <img src="images/posters/dimsumposter.jpg" alt="Dim sum" />
 
   <h2>Dim Sum</h2>
 
