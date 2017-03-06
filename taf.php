@@ -59,7 +59,7 @@ head($styles);
   <img src="images/taf/website.jpeg" alt="Website" />
 
   <div id="visit">
-    <a href="http://www.texasartfilm.net">Visit Website</a>
+    <a href="http://www.texasartfilm.net">Visit Site</a>
   </div>
 
   <p>

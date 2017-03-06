@@ -37,7 +37,7 @@ head($styles);
   <img src="images/anne/annedouglasswebsite.jpg" alt="Website" />
 
   <div id="visit">
-    <a href="">Visit Website</a>
+    <a href="">Visit Site</a>
   </div>
 
   <p>

@@ -9,8 +9,9 @@ $posters = new Project("Posters", "posters.php", "images/posters/postersfeatured
 $antivaxx = new Project("Who are the Anti-Vaxxers?", "antivaxx.php", "images/antivaxx/AVfeaturedimage1.gif", "Anti-vaxxers");
 $taf = new Project("Texas Art &amp; Film", "taf.php", "images/taf/taf_ftd_image_1000x1000.jpg", "Texas Art &amp; Film");
 $anne = new Project("Anne Douglass Therapy", "anne.php", "images/anne/annedouglassfeaturedimage.jpg", "Anne Douglass");
+$saff = new Project("Seattle Animation Film Festival", "saff.php", "images/saff/SAFFpostermockup.jpg", "Seattle Animation Film Festival");
 
-$portfolio = array($anne, $taf, $antivaxx, $posters);
+$portfolio = array($saff, $anne, $taf, $antivaxx, $posters);
 ?>
 
 <div id="portfolio">
