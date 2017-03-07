@@ -12,8 +12,9 @@ $anne = new Project("Anne Douglass Therapy", "anne.php", "images/anne/annedougla
 $saff = new Project("Seattle Animation Film Festival", "saff.php", "images/saff/SAFFpostermockup.jpg");
 $catnip = new Project("Catnip", "catnip.php", "images/catnip/catnipprojectmockupgif3.gif");
 $immerse = new Project("Immerse", "immerse.php", "images/immerse/immersemockup.jpg");
+$link = new Project("Link", "link.php", "images/link/linkpassmockup.jpg");
 
-$portfolio = array($immerse, $catnip, $saff, $anne, $taf, $antivaxx, $posters);
+$portfolio = array($link, $immerse, $catnip, $saff, $anne, $taf, $antivaxx, $posters);
 ?>
 
 <div id="portfolio">

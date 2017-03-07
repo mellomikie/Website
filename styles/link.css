@@ -1,31 +1,25 @@
-/* This is the style sheet for the antivaxx project page of Michael's website. */
+/* This is the style sheet for the link project page of Michael's website. */
 
-body > img, #infograph > img {
+body > img {
   display: block;
-  width: 100%;
+  width:100%;
 }
 
-#infograph {
-  width: 500px;
+h1, body > h2 {
+  margin-top: 40px;
+}
+
+#small-logo, #big-logo {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
-h1 {
-  margin-top: 40px;
+#small-logo {
+  width: 200px;
 }
 
-h1 > span {
-  font-size: 0.9em;
-  letter-spacing: normal;
-  text-transform: none;
-}
-
-iframe {
-  width: 640px;
-  height: 360px;
+#big-logo {
+  width: 500px;
 }
 
 .subsection {
@@ -37,6 +31,7 @@ iframe {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .subsection > img {
