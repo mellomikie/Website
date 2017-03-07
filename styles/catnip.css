@@ -1,15 +1,8 @@
 /* This is the style sheet for the catnip project page of Michael's website. */
 
-body > img, #infograph > img {
+body > img {
   display: block;
   width: 100%;
-}
-
-#infograph {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
 }
 
 h1 {

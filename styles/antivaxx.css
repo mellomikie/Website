@@ -46,7 +46,7 @@ iframe {
   width: 320px;
 }
 
-.subsection:nth-child(even) {
+.subsection:nth-child(odd) {
   flex-direction: row;
 }
 

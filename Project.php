@@ -8,11 +8,11 @@ class Project {
 
   # Creates a new Project object with the given title, link, image, and image
   # title.
-  public function __construct($title, $link, $image, $imageTitle) {
+  public function __construct($title, $link, $image, $imageTitle = NULL) {
     $this->title = $title;
     $this->link = $link;
     $this->image = $image;
-    $this->imageTitle = $imageTitle;
+    $this->imageTitle = $imageTitle ? $imageTitle : $title;
   }
 
   public function getTitle() {
