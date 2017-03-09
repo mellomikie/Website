@@ -9,7 +9,7 @@ $styles = array("styles/saff.css");
 head($styles);
 ?>
 
-<img src="images/saff/saffintroimage1.jpg" alt="Seattle animation film festival" />
+<img class="spread" src="images/saff/saffintroimage1.jpg" alt="Seattle animation film festival" />
 
 <h1>Seattle Animation Film Festival</h1>
 
@@ -37,10 +37,7 @@ head($styles);
   <video src="videos/saff.mp4" autoplay="autoplay" loop="loop">
     Your browser does not support the video element or the MP4 video format.
   </video>
-
-  <div id="visit">
-    <a href="">Visit Site</a>
-  </div>
+  <a class="link-box" href="">Visit Site</a>
 </div>
 
 <div id="mobile">

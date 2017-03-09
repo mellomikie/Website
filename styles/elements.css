@@ -3,43 +3,6 @@ This is the style sheet for the Amazon elements project page of Michael's
 website.
 */
 
-body > img, #website > img {
-  display: block;
-  width:100%;
-}
-
-h1, body > h2, body > img + img, body > p + img, body > img + p {
-  margin-top: 40px;
-}
-
-#website {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-}
-
-/*
-#visit {
-  text-align: center;
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #eaeaea;
-}
-
-#visit a {
-  font-family: "europa", serif;
-  font-size: .9em;
-  font-weight: 300;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-  color: black;
-}
-*/
-
 #mobile {
   display: flex;
   justify-content: space-around;

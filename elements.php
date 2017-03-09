@@ -9,7 +9,7 @@ $styles = array("styles/elements.css");
 head($styles);
 ?>
 
-<img src="images/amazon_elements/amazon_elements_intro_image_s_2001x792.jpg" alt="Amazon Elements" />
+<img class="spread" src="images/amazon_elements/amazon_elements_intro_image_s_2001x792.jpg" alt="Amazon Elements" />
 
 <h1>Amazon Elements</h1>
 
@@ -21,9 +21,9 @@ head($styles);
   module for the vitamins &amp; supplements product line.
 </p>
 
-<img src="images/amazon_elements/ae_transparency_showcase_desktop.jpg" alt="Transparency showcase" />
-<img src="images/amazon_elements/ae_vitamins_showcase_desktop.jpg" alt="Vitamins showcase" />
-<img src="images/amazon_elements/ae_wipes_showcase_desktop.jpg" alt="Babywipes showcase" />
+<img class="spread" src="images/amazon_elements/ae_transparency_showcase_desktop.jpg" alt="Transparency showcase" />
+<img class="spread" src="images/amazon_elements/ae_vitamins_showcase_desktop.jpg" alt="Vitamins showcase" />
+<img class="spread" src="images/amazon_elements/ae_wipes_showcase_desktop.jpg" alt="Babywipes showcase" />
 
 <p>
   The challenge of creating the brand page for Amazon Elements was to
@@ -32,9 +32,9 @@ head($styles);
   and explain the brand is a solution that leaves room for future products.
 </p>
 
-<img src="images/amazon_elements/ae_grid_one_2000x471.jpg" alt="" />
-<img src="images/amazon_elements/ae_grid_two_2000x702.jpg" alt="" />
-<img src="images/amazon_elements/allvitamins_2000x716.jpg" alt="" />
+<img class="spread" src="images/amazon_elements/ae_grid_one_2000x471.jpg" alt="" />
+<img class="spread" src="images/amazon_elements/ae_grid_two_2000x702.jpg" alt="" />
+<img class="spread" src="images/amazon_elements/allvitamins_2000x716.jpg" alt="" />
 
 <div id="website">
   <img src="images/amazon_elements/aewebmockup.jpg" alt="Website" />

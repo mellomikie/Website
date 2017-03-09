@@ -8,7 +8,7 @@ $styles = array("styles/catnip.css");
 head($styles);
 ?>
 
-<img src="images/catnip/catnipintroimage.jpg" alt="Catnip" />
+<img class="spread" src="images/catnip/catnipintroimage.jpg" alt="Catnip" />
 
 <h1>
   Catnip

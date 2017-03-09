@@ -8,11 +8,13 @@ body {
   font-family: "adobe-garamond-pro", "Garamond", serif;
   font-size: 12pt;
   text-align: center;
-  line-height: 28px;
-  margin: 0em;
-  padding: 0em;
+  line-height: 1.5em;
+  margin: 0px;
+  padding: 0px;
   background-color: white;
 }
+
+/* Global style rules for headers */
 
 h1, h2 {
   font-family: "europa", serif;
@@ -26,22 +28,43 @@ h1 {
   letter-spacing: .08em;
 }
 
+h1 > span {
+  font-size: 0.9em;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
 h2 {
   font-size: .9em;
   letter-spacing: .05em;
 }
 
+/* Global style rules for paragraphs */
+
 p {
   font-family: "adobe-garamond-pro", "Garamond", serif;
-  text-align: justify; /* text-align: left; */
+  text-align: justify;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* Global style rules for anchors */
+
 a {
   text-decoration: none;
+  outline: none;
+  color: inherit;
 }
+
+/* Global style rules for inline frames */
+
+iframe {
+  width: 640px;
+  height: 360px;
+}
+
+/* Style rules for flash messages */
 
 .flash {
   text-align: center;
@@ -54,6 +77,8 @@ a {
   border-color: #ccccaa;
 }
 
+/* Style rules for header */
+
 header {
   text-align: center;
   padding-top: 40px;
@@ -64,8 +89,47 @@ header img {
   width: 130px;
 }
 
-/* TODO pull out common styles for website, buttons, and tabbed content */
 /* TODO add style rules for footer of page or remove footer */
+
+/* Style rules for link boxes */
+
+a.link-box {
+  padding: 10px;
+  font-family: "europa", serif;
+  font-size: .9em;
+  font-weight: 300;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+
+/* Style rules for spreads */
+
+img.spread {
+  display: block;
+  width: 100%;
+}
+
+/* Style rules for website mockup */
+
+#website {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#website > img {
+  display: block;
+}
+
+#website > img, #website > video {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* TODO pull out common styles for website, buttons, and tabbed content */
+
 /* TODO add style rules for portfolio */
 /* TODO add style rules for portfolio id or remove id */
 /* TODO add style rules for portfolio-item class or remove class */

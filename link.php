@@ -8,7 +8,7 @@ $styles = array("styles/link.css");
 head($styles);
 ?>
 
-<img src="images/link/linkintroimage.jpg" alt="Link" />
+<img class="spread" src="images/link/linkintroimage.jpg" alt="Link" />
 
 <h1>Link</h1>
 

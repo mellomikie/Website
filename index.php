@@ -43,9 +43,7 @@ include("portfolio.php");
     </li>
   </ul>
 
-  <div id="resume">
-    <a href="documents/mwresume.pdf">View Resume</a>
-  </div>
+  <a class="link-box" href="documents/mwresume.pdf">View Resume</a>
 </div>
 
 <?php foot(); ?>

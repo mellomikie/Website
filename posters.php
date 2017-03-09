@@ -8,59 +8,51 @@ $styles = array("styles/posters.css");
 head($styles);
 ?>
 
-<img src="images/posters/postersintroimage1.jpg" alt="Posters" />
+<img class="spread" src="images/posters/postersintroimage1.jpg" alt="Posters" />
 
 <h1>Posters</h1>
 
 <p>The following is a collection of posters that I designed.</p>
 
-<div class="poster">
-  <img src="images/posters/fucklifeposter1.jpg" alt="Lemons" />
+<img class="poster" src="images/posters/fucklifeposter1.jpg" alt="Lemons" />
 
-  <h2>Lemons</h2>
+<h2>Lemons</h2>
 
-  <p>
-    This poster was designed as a way to express anger in a fun and
-    interesting way. So often we hold in our anger and are told that we
-    should make the best of what is given to us. Making lemonade out of
-    lemons is fine and all, but sometimes getting good and angry is much more
-    cathartic.
-  </p>
-</div>
+<p>
+  This poster was designed as a way to express anger in a fun and
+  interesting way. So often we hold in our anger and are told that we
+  should make the best of what is given to us. Making lemonade out of
+  lemons is fine and all, but sometimes getting good and angry is much more
+  cathartic.
+</p>
 
-<div class="poster">
-  <img src="images/posters/snowfallingposter.jpg" alt="Snow Falling on Cedars" />
+<img class="poster" src="images/posters/snowfallingposter.jpg" alt="Snow Falling on Cedars" />
 
-  <h2>Snow Falling on Cedars</h2>
+<h2>Snow Falling on Cedars</h2>
 
-  <p>
-    Drawing on the themes of love and memory, I created illustrations that
-    captured the core essence of the play. Red flecks on the poster reference
-    the darker themes in the story such as murder and racial prejudice.
-  </p>
-</div>
+<p>
+  Drawing on the themes of love and memory, I created illustrations that
+  captured the core essence of the play. Red flecks on the poster reference
+  the darker themes in the story such as murder and racial prejudice.
+</p>
 
-<div class="poster">
-  <img src="images/posters/antiquecatposter.jpg" alt="Antique cat" />
+<img class="poster" src="images/posters/antiquecatposter.jpg" alt="Antique cat" />
 
-  <h2>Antique Cat</h2>
+<h2>Antique Cat</h2>
 
-  <p>
-    Appealing to a niche market of those interested in both cats and Japanese
-    culture, I designed a poster based on a craigslist ad that featured an
-    antique cat.
-  </p>
-</div>
+<p>
+  Appealing to a niche market of those interested in both cats and Japanese
+  culture, I designed a poster based on a craigslist ad that featured an
+  antique cat.
+</p>
 
-<div class="poster">
-  <img src="images/posters/dimsumposter.jpg" alt="Dim sum" />
+<img class="poster" src="images/posters/dimsumposter.jpg" alt="Dim sum" />
 
-  <h2>Dim Sum</h2>
+<h2>Dim Sum</h2>
 
-  <p>
-    This poster is inspired by the variety of delicious food that comes with
-    dim sum as well as my love for puns.
-  </p>
-</div>
+<p>
+  This poster is inspired by the variety of delicious food that comes with
+  dim sum as well as my love for puns.
+</p>
 
 <?php foot(); ?>

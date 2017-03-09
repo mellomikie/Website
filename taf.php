@@ -9,7 +9,7 @@ $styles = array("styles/taf.css");
 head($styles);
 ?>
 
-<img src="images/taf/taf_intro_image_desktop-1024x406.jpg" alt="Texas art &amp; film" />
+<img class="spread" src="images/taf/taf_intro_image_desktop-1024x406.jpg" alt="Texas art &amp; film" />
 
 <h1>Texas Art &amp; Film</h1>
 
@@ -21,7 +21,7 @@ head($styles);
   media strategy.
 </p>
 
-<img src="images/taf/taf_mobilephonedesktop1.jpeg" alt="Mobile phone app" />
+<img id="mobile" src="images/taf/taf_mobilephonedesktop1.jpeg" alt="Mobile phone app" />
 
 <p>
   Texas Art &amp; Film is primarily a resource for finding online film reviews.
@@ -32,8 +32,8 @@ head($styles);
   conversation about their favorite films.
 </p>
 
-<img src="images/taf/taf_oscars_ballots_2016.jpg" alt="Oscars ballots 2016" />
-<img src="images/taf/taf_oscars_ballots_2017.jpg" alt="Oscars ballots 2017" />
+<img class="spread" src="images/taf/taf_oscars_ballots_2016.jpg" alt="Oscars ballots 2016" />
+<img class="spread" src="images/taf/taf_oscars_ballots_2017.jpg" alt="Oscars ballots 2017" />
 
 <h2>Event Campaigns</h2>
 
@@ -57,15 +57,11 @@ head($styles);
 
 <div id="website">
   <img src="images/taf/website.jpeg" alt="Website" />
-
-  <div id="visit">
-    <a href="http://www.texasartfilm.net">Visit Site</a>
-  </div>
-
+  <a class="link-box" href="http://www.texasartfilm.net">Visit Site</a>
   <p>
-    After analyzing the content and user research, I designed the final layout of
-    the site to offer custom banners that show the user what is new on the site,
-    give quick access to the latest film reviews and provide film festival
+    After analyzing the content and user research, I designed the final layout
+    of the site to offer custom banners that show the user what is new on the
+    site, give quick access to the latest film reviews and provide film festival
     coverage as well as awards coverage. After the redesign, user traffic
     increased by 150%.
   </p>

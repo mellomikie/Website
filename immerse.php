@@ -8,7 +8,7 @@ $styles = array("styles/immerse.css");
 head($styles);
 ?>
 
-<img src="images/immerse/immerseintroimage1.jpg" alt="Immerse" />
+<img class="spread" src="images/immerse/immerseintroimage1.jpg" alt="Immerse" />
 
 <h1>Immerse</h1>
 
@@ -19,7 +19,7 @@ head($styles);
   immersive urban experience.
 </p>
 
-<img src="images/immerse/slumarticle.jpeg" alt="Slum article" />
+<img class="spread" src="images/immerse/slumarticle.jpeg" alt="Slum article" />
 
 <h2>Article Layout</h2>
 
@@ -32,7 +32,7 @@ head($styles);
   to represent the growth into the vibrant city it is today.
 </p>
 
-<img src="images/immerse/immerse_gridimage_3.jpg" alt="" />
+<img class="spread" src="images/immerse/immerse_gridimage_3.jpg" alt="" />
 
 <div class="subsection">
   <img src="images/immerse/immerse_section_spread_style_v2.jpg" alt="Section spread" />
@@ -47,8 +47,8 @@ head($styles);
   </div>
 </div>
 
-<img src="images/immerse/immerse_gridimage_1.jpg" alt="" />
-<img src="images/immerse/immerse_gridimage_2.jpg" alt="" />
+<img class="spread" src="images/immerse/immerse_gridimage_1.jpg" alt="" />
+<img class="spread" src="images/immerse/immerse_gridimage_2.jpg" alt="" />
 
 <!-- TODO tabbed content -->
 
@@ -83,9 +83,7 @@ head($styles);
     Immerse brand through a digital format. Using similar layouts and focus on
     content, the website shows how the publication would reach a broader audience.
   </p>
-  <div id="visit">
-    <a href="">Visit Site</a>
-  </div>
+  <a class="link-box" href="http://mellomikie.com/immerse/">Visit Site</a>
 </div>
 
 <?php foot(); ?>

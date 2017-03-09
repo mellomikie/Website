@@ -9,7 +9,7 @@ $styles = array("styles/anne.css");
 head($styles);
 ?>
 
-<img src="images/anne/anneintroimage.jpg" alt="Anne Douglass therapy" />
+<img class="spread" src="images/anne/anneintroimage.jpg" alt="Anne Douglass therapy" />
 
 <h1>Anne Douglass Therapy</h1>
 
@@ -19,14 +19,13 @@ head($styles);
   print and digital and redesigned her website.
 </p>
 
-<div id="logo">
-  <img src="images/anne/annelogo.jpg" alt="Logo" />
-  <p>
-    The logo was designed to express Anne’s personality, feel approachable to
-    new clients and have the personal touch of a signature. I collaborated with
-    Ana Raab for photography used on the brochure and website.
-  </p>
-<div>
+<img id="logo" src="images/anne/annelogo.jpg" alt="Logo" />
+
+<p>
+  The logo was designed to express Anne’s personality, feel approachable to
+  new clients and have the personal touch of a signature. I collaborated with
+  Ana Raab for photography used on the brochure and website.
+</p>
 
 <div id="brochure">
   <img src="images/anne/annebrochureoutside1.jpg" alt="Brochure outside" />
@@ -35,11 +34,7 @@ head($styles);
 
 <div id="website">
   <img src="images/anne/annedouglasswebsite.jpg" alt="Website" />
-
-  <div id="visit">
-    <a href="">Visit Site</a>
-  </div>
-
+  <a class="link-box" href="http://annedouglasstherapy.com">Visit Site</a>
   <p>
     I designed the website with the user in mind. Potential clients want to see
     the therapist they are considering so I made Anne the focal point of the

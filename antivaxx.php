@@ -8,7 +8,7 @@ $styles = array("styles/antivaxx.css");
 head($styles);
 ?>
 
-<img src="images/antivaxx/AVintroimagedesktop.jpg" alt="Anti-vaxxers" />
+<img class="spread" src="images/antivaxx/AVintroimagedesktop.jpg" alt="Anti-vaxxers" />
 
 <h1>
   Who are the Anti-Vaxxers?
@@ -79,16 +79,14 @@ head($styles);
   </div>
 </div>
 
-<div id="infograph">
-  <img src="images/antivaxx/antivaxxerfinalposter.jpg" alt="Infographic poster" />
+<img id="infograph" src="images/antivaxx/antivaxxerfinalposter.jpg" alt="Infographic poster" />
 
-  <p>
-    The infographic poster gives a comprehensive look at the complex issue of
-    anti-vaccination in America, giving insight on the government and
-    individual standpoints and providing unbiased, factual information about
-    who the anti-vaxxers are, where they can be found and the history of the
-    movement.
-  </p>
-</div>
+<p>
+  The infographic poster gives a comprehensive look at the complex issue of
+  anti-vaccination in America, giving insight on the government and
+  individual standpoints and providing unbiased, factual information about
+  who the anti-vaxxers are, where they can be found and the history of the
+  movement.
+</p>
 
 <?php foot(); ?>
