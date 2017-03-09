@@ -13,8 +13,9 @@ $saff = new Project("Seattle Animation Film Festival", "saff.php", "images/saff/
 $catnip = new Project("Catnip", "catnip.php", "images/catnip/catnipprojectmockupgif3.gif");
 $immerse = new Project("Immerse", "immerse.php", "images/immerse/immersemockup.jpg");
 $link = new Project("Link", "link.php", "images/link/linkpassmockup.jpg");
+$elements = new Project("Amazon Elements", "elements.php", "images/amazon_elements/ae_ft_image_1000x1000.jpg");
 
-$portfolio = array($link, $immerse, $catnip, $saff, $anne, $taf, $antivaxx, $posters);
+$portfolio = array($elements, $link, $immerse, $catnip, $saff, $anne, $taf, $antivaxx, $posters);
 ?>
 
 <div id="portfolio">
