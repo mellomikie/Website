@@ -34,7 +34,7 @@ head($styles);
 
 <img class="spread" src="images/immerse/immerse_gridimage_3.jpg" alt="" />
 
-<div class="subsection">
+<div class="figure">
   <img src="images/immerse/immerse_section_spread_style_v2.jpg" alt="Section spread" />
   <div>
     <h2>Sections</h2>
@@ -63,7 +63,7 @@ head($styles);
   layout the structure of the magazine.
 </p>
 
-<div class="subsection">
+<div class="figure">
   <img src="images/immerse/guidemapmockupforwebsite.jpg" alt="Guide map" />
   <div>
     <h2>Guide Map</h2>

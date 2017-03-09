@@ -35,12 +35,10 @@ head($styles);
   storytelling.
 </p>
 
-<div class="subsection">
+<div class="figure">
   <img src="images/antivaxx/antivaxxer_moodboard.jpg" alt="Mood board" />
-
   <div>
     <h2>Visual Style</h2>
-
     <p>
       In order to make the difficult subject matter digestible, we chose a soft
       color palette with pops of color to draw the viewer into the information.
@@ -50,12 +48,10 @@ head($styles);
   </div>
 </div>
 
-<div class="subsection">
+<div class="figure">
   <img src="images/antivaxx/antivaxxerarchetypes.jpg" alt="Archetypes" />
-
   <div>
     <h2>Archetypes</h2>
-
     <p>
       After comprehensive research and analyzing the anti-vaccination movement
       in the U.S., we grouped the anti-vaxxers into five archetypes based on
@@ -65,12 +61,10 @@ head($styles);
   </div>
 </div>
 
-<div class="subsection">
+<div class="figure">
   <img src="images/antivaxx/antivaxxermap.jpg" alt="Map" />
-
   <div>
     <h2>Location Mapping</h2>
-
     <p>
       With further research, we were able to map the archetypes to specific
       locations across the U.S. and identify ecosystems that we explore within
@@ -80,6 +74,8 @@ head($styles);
 </div>
 
 <img id="infograph" src="images/antivaxx/antivaxxerfinalposter.jpg" alt="Infographic poster" />
+
+<h2>Infograph</h2>
 
 <p>
   The infographic poster gives a comprehensive look at the complex issue of

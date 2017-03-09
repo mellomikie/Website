@@ -3,34 +3,3 @@
 img#infograph {
   width: 500px;
 }
-
-h1 {
-  margin-top: 40px;
-}
-
-.subsection {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  min-width: 320px;
-  max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-}
-
-.subsection > img {
-  width: 320px;
-}
-
-.subsection > div, .subsection p {
-  width: 320px;
-}
-
-.subsection:nth-child(odd) {
-  flex-direction: row;
-}
-
-.subsection:nth-child(even) {
-  flex-direction: row-reverse;
-}

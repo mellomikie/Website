@@ -34,7 +34,7 @@ head($styles);
 
 <!-- TODO tabbed content -->
 
-<div class="subsection">
+<div class="figure">
   <img src="images/link/linkprint.jpg" alt="Link print" />
   <div>
     <h2>Print</h2>
@@ -48,7 +48,7 @@ head($styles);
   </div>
 </div>
 
-<div class="subsection">
+<div class="figure">
   <img src="images/link/linkwebsitemockup.jpg" alt="Website" />
   <div>
     <h2>Digital</h2>
@@ -60,7 +60,7 @@ head($styles);
   </div>
 </div>
 
-<div class="subsection">
+<div class="figure">
   <img src="images/link/environmentalgraphics.jpg" alt="Environmental graphics" />
   <div>
     <h2>Environmental Graphics</h2>

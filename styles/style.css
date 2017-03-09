@@ -102,11 +102,40 @@ a.link-box {
   text-transform: uppercase;
 }
 
-/* Style rules for spreads */
+/* Style rules for image spreads */
 
 img.spread {
   display: block;
   width: 100%;
+}
+
+/* Style rules for figures */
+
+.figure {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: 320px;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.figure > img {
+  width: 320px;
+}
+
+.figure > div, .figure p {
+  width: 320px;
+}
+
+.figure:nth-child(odd) {
+  flex-direction: row;
+}
+
+.figure:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
 /* Style rules for website mockup */
