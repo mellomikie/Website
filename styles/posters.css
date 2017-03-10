@@ -1,5 +1,7 @@
 /* This is the style sheet for the posters project page of Michael's website. */
 
 img.poster {
-  width: 500px;
+  min-width: 320px;
+  max-width: 500px;
+  width: 100%;
 }

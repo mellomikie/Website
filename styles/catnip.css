@@ -1,8 +1,9 @@
 /* This is the style sheet for the catnip project page of Michael's website. */
 
-#logo {
-  width: 500px;
-  display: inline;
+img#logo {
+  min-width: 320px;
+  max-width: 500px;
+  width: 100%;
 }
 
 #mobile, #characters {

@@ -21,7 +21,10 @@ head($styles);
   media strategy.
 </p>
 
-<img id="mobile" src="images/taf/taf_mobilephonedesktop1.jpeg" alt="Mobile phone app" />
+<div id="mobile">
+  <img src="images/taf/mobile1.jpg" alt="Mobile app" />
+  <img src="images/taf/mobile2.jpg" alt="Mobile app" />
+</div>
 
 <p>
   Texas Art &amp; Film is primarily a resource for finding online film reviews.

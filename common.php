@@ -37,7 +37,19 @@ function head($styles = NULL, $scripts = NULL) {
 function foot() {
   ?>
 
-      <footer></footer>
+      <footer>
+        <a class="link-box" href="mailto:hi@mellomikie.com">Email</a>
+        <a class="link-box" href="documents/mwresume.pdf">Resume</a>
+        <a href="http://www.facebook.com/michael.woody.10" target="_blank">
+          <img src="images/home/facebook.png" alt="Facebook" />
+        </a>
+        <a href="http://www.linkedin.com/in/michael-woody-64a6507" target="_blank">
+          <img src="images/home/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="http://www.instagram.com/mellomikie" target="_blank">
+          <img src="images/home/instagram.png" alt="Instagram" />
+        </a>
+      </footer>
     </body>
   </html>
 

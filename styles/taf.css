@@ -5,8 +5,19 @@ website.
 
 /* TODO split mobile image into two images */
 
-img#mobile {
-  width: 500px;
+#mobile {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: 320px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+#mobile > img {
+  width: 320px;
 }
 
 img + img {

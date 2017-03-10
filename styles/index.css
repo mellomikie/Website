@@ -2,34 +2,7 @@
 
 #about {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   background-color: #eaeaea;
-}
-
-#about h1, #about p, #email {
   color: #808080;
-}
-
-#email {
-  font-family: "europa", serif;
-  font-size: .9em;
-}
-
-#social {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0px;
-}
-
-#social img {
-  width: 25px;
-  height: 25px;
-}
-
-.link-box {
-  background-color: white;
 }
