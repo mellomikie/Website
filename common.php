@@ -30,7 +30,7 @@ function head($styles = NULL, $scripts = NULL) {
         </a>
       </header>
 
-        <?php
+      <?php
 }
 
 # Prints page footer.
@@ -105,6 +105,54 @@ function flash($message) {
   ?>
 
   <div class="flash"><span><?= $message ?></span></div>
+
+  <?php
+}
+
+# Displays the given portfolio of projects.
+function portfolio($portfolio) {
+  ?>
+
+  <div id="portfolio">
+
+    <?php foreach ($portfolio as $project) { ?>
+
+      <div class="project">
+        <h2><?= $project->getTitle() ?></h2>
+        <a href="<?= $project->getLink() ?>">
+          <img src="<?= $project->getImage() ?>" alt="<?= $project->getImageTitle() ?>" />
+        </a>
+      </div>
+
+    <?php } ?>
+
+  </div>
+
+<?php
+}
+
+# Displays the given tabbed content.
+function tabs($tabs) {
+  ?>
+
+  <div id="tabs">
+
+    <?php foreach ($tabs as $tab) { ?>
+
+      <button class="tab"><?= $tab->getTitle() ?></button>
+
+    <?php } ?>
+
+  </div>
+  <div id="tabbed-content">
+
+    <?php foreach ($tabs as $tab) { ?>
+
+      <img src="<?= $project->getImage() ?>" alt="<?= $project->getImageTitle() ?>" />
+
+    <?php } ?>
+
+  </div>
 
   <?php
 }
