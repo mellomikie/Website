@@ -12,6 +12,7 @@ function head($styles = NULL, $scripts = NULL) {
       <meta charset="utf-8" />
       <meta name="description" content="Michael Woody is a graphic designer in Seattle, Washington." />
       <meta name="keywords" content="web design, user experience design, package design, visual design, minimalist" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link href="images/home/favicon.svg" type="image/svg" rel="shortcut icon" />
       <link href="styles/style.css" type="text/css" rel="stylesheet" />
 
