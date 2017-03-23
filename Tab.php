@@ -1,6 +1,6 @@
 <?php
 # A Tab represents the model for a tab in tabbed content.
-class Project {
+class Tab {
   private $title;
   private $image;
   private $imageTitle;

@@ -1,8 +1,17 @@
 /* This is the style sheet for the main page of Michael's website. */
 
 #about {
-  padding-top: 40px;
-  padding-bottom: 20px;
   background-color: #eaeaea;
   color: #808080;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a.link-box {
+  background-color: #fcfcfc;
+}
+
+footer {
+  margin-top: 0;
 }

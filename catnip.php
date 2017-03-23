@@ -40,18 +40,18 @@ head($styles);
 
 <!-- TODO tabbed content -->
 
-<h2>Marketing Video</h2>
-
 <iframe src="https://player.vimeo.com/video/167828969"></iframe>
+
+<h2>Marketing Video</h2>
 
 <p>
   We created a marketing video to showcase the functionality of Catnip, using
   the 3D models in real space to show how the user can interact within the app.
 </p>
 
-<h2>User Goal One</h2>
-
 <iframe src="https://player.vimeo.com/video/167835395"></iframe>
+
+<h2>User Goal One</h2>
 
 <p>
   One of our user’s primary goals is to escape stress and anxiety, so we focused
@@ -60,9 +60,9 @@ head($styles);
   friends.
 </p>
 
-<h2>User Goal Two</h2>
-
 <iframe src="https://player.vimeo.com/video/167836344"></iframe>
+
+<h2>User Goal Two</h2>
 
 <p>
   A secondary user goal is to deal with anxiety while on the go or when unable
@@ -71,9 +71,9 @@ head($styles);
   messaging, gifting, taking photos or sharing.
 </p>
 
-<h2>User Goal Three</h2>
-
 <iframe src="https://player.vimeo.com/video/167835181"></iframe>
+
+<h2>User Goal Three</h2>
 
 <p>
   Another goal of our user is to share delightful things with friends in order

@@ -3,6 +3,10 @@ This is the style sheet for the Amazon elements project page of Michael's
 website.
 */
 
+p + img, img + p {
+  margin-top: 20px;
+}
+
 #mobile {
   display: flex;
   justify-content: space-around;
@@ -11,7 +15,7 @@ website.
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #mobile > img {

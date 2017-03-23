@@ -3,8 +3,6 @@ This is the style sheet for the Texas art and film project page of Michael's
 website.
 */
 
-/* TODO split mobile image into two images */
-
 #mobile {
   display: flex;
   justify-content: space-around;
@@ -13,14 +11,14 @@ website.
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 #mobile > img {
   width: 320px;
 }
 
-img + img {
+p + img, img + img {
   margin-top: 20px;
 }
 
@@ -29,10 +27,10 @@ img + img {
   justify-content: space-around;
   flex-wrap: wrap;
   min-width: 320px;
-  max-width: 680px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 20px;
   /* background-color: #eaeaea; */
 }
 
@@ -40,10 +38,6 @@ img + img {
   width: 320px;
 }
 
-#festivals > div, #festivals p {
-  width: 320px;
-}
-
-.link-box {
-  background-color: #eaeaea;
+#festivals p {
+  width: 300px;
 }
