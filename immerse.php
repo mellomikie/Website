@@ -19,7 +19,7 @@ head($styles);
   immersive urban experience.
 </p>
 
-<img class="spread" src="images/immerse/slum_article.jpeg" alt="Slum article" />
+<img class="spread" src="images/immerse/slum_article.jpg" alt="Slum article" />
 
 <h2>Article Layout</h2>
 
@@ -35,7 +35,7 @@ head($styles);
 <img class="spread" src="images/immerse/article.jpg" alt="" />
 
 <div class="figure">
-  <img src="images/immerse/sections.jpg" alt="Section spread" />
+  <img src="images/immerse/sections.gif" alt="Section spread" />
   <div>
     <h2>Sections</h2>
     <p>
@@ -62,7 +62,6 @@ head($styles);
 
 <div class="figure">
   <img src="images/immerse/map.jpg" alt="Guide map" />
-  <img src="images/immerse/map_icons.jpg" alt="Guide map icons" />
   <div>
     <h2>Guide Map</h2>
     <p>

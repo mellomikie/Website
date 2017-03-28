@@ -82,9 +82,9 @@ head($styles);
 </p>
 
 <div id="characters">
-  <img src="images/catnip/space_kitty.jpeg" alt="Space kitty" />
-  <img src="images/catnip/cupcake_kitty.jpeg" alt="Cupcake kitty" />
-  <img src="images/catnip/dapper_kitty.jpeg" alt="Dapper kitty" />
+  <img src="images/catnip/space_kitty.jpg" alt="Space kitty" />
+  <img src="images/catnip/cupcake_kitty.jpg" alt="Cupcake kitty" />
+  <img src="images/catnip/dapper_kitty.jpg" alt="Dapper kitty" />
 </div>
 
 <h2>Character Design</h2>
