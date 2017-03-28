@@ -8,7 +8,7 @@ $styles = array("styles/link.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/link/linkintroimage.jpg" alt="Link" />
+<img class="spread" src="images/link/intro.jpg" alt="Link" />
 
 <h1>Link</h1>
 
@@ -20,8 +20,8 @@ head($styles);
   advertising, web, and environmental graphics.
 </p>
 
-<img id="small-logo" src="images/link/LINKLOGO.png" alt="Small logo" />
-<img id="big-logo" src="images/link/letsmoveforward.jpg" alt="Big logo" />
+<img id="small-logo" src="images/link/logo.png" alt="Logo" />
+<img id="big-logo" src="images/link/tag_line.jpg" alt="Let's move forward" />
 
 <h2>Logo &amp; Concept</h2>
 
@@ -35,7 +35,7 @@ head($styles);
 <!-- TODO tabbed content -->
 
 <div class="figure">
-  <img src="images/link/linkprint.jpg" alt="Link print" />
+  <img src="images/link/print.jpg" alt="Print" />
   <div>
     <h2>Print</h2>
     <p>
@@ -49,7 +49,7 @@ head($styles);
 </div>
 
 <div class="figure">
-  <img src="images/link/linkwebsitemockup.jpg" alt="Website" />
+  <img src="images/link/website.jpg" alt="Website" />
   <div>
     <h2>Digital</h2>
     <p>
@@ -61,7 +61,7 @@ head($styles);
 </div>
 
 <div class="figure">
-  <img src="images/link/environmentalgraphics.jpg" alt="Environmental graphics" />
+  <img src="images/link/environmental_graphics.jpg" alt="Environmental graphics" />
   <div>
     <h2>Environmental Graphics</h2>
     <p>
