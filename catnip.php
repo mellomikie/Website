@@ -8,7 +8,7 @@ $styles = array("styles/catnip.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/catnip/catnipintroimage.jpg" alt="Catnip" />
+<img class="spread" src="images/catnip/intro.jpg" alt="Catnip" />
 
 <h1>
   Catnip
@@ -26,9 +26,9 @@ head($styles);
 <img id="logo" src="images/catnip/logo.png" alt="Logo" />
 
 <div id="mobile">
-  <img src="images/catnip/screen1.jpg" alt="Play screen" />
-  <img src="images/catnip/screen2.jpg" alt="Chat screen" />
-  <img src="images/catnip/screen3.jpg" alt="Find screen" />
+  <img src="images/catnip/play_screen.jpg" alt="Play screen" />
+  <img src="images/catnip/chat_screen.jpg" alt="Chat screen" />
+  <img src="images/catnip/find_screen.jpg" alt="Find screen" />
 </div>
 
 <p>
@@ -82,9 +82,9 @@ head($styles);
 </p>
 
 <div id="characters">
-  <img src="images/catnip/spacekittycharacter.jpeg" alt="Space kitty" />
-  <img src="images/catnip/cupcakekittycharacter.jpeg" alt="Cupcake kitty" />
-  <img src="images/catnip/dapperkittycharacter.jpeg" alt="Dapper kitty" />
+  <img src="images/catnip/space_kitty.jpeg" alt="Space kitty" />
+  <img src="images/catnip/cupcake_kitty.jpeg" alt="Cupcake kitty" />
+  <img src="images/catnip/dapper_kitty.jpeg" alt="Dapper kitty" />
 </div>
 
 <h2>Character Design</h2>

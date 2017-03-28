@@ -8,7 +8,7 @@ $styles = array("styles/immerse.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/immerse/immerseintroimage1.jpg" alt="Immerse" />
+<img class="spread" src="images/immerse/intro.jpg" alt="Immerse" />
 
 <h1>Immerse</h1>
 
@@ -19,7 +19,7 @@ head($styles);
   immersive urban experience.
 </p>
 
-<img class="spread" src="images/immerse/slumarticle.jpeg" alt="Slum article" />
+<img class="spread" src="images/immerse/slum_article.jpeg" alt="Slum article" />
 
 <h2>Article Layout</h2>
 
@@ -32,10 +32,10 @@ head($styles);
   to represent the growth into the vibrant city it is today.
 </p>
 
-<img class="spread" src="images/immerse/immerse_gridimage_3.jpg" alt="" />
+<img class="spread" src="images/immerse/article.jpg" alt="" />
 
 <div class="figure">
-  <img src="images/immerse/immerse_section_spread_style_v2.jpg" alt="Section spread" />
+  <img src="images/immerse/sections.jpg" alt="Section spread" />
   <div>
     <h2>Sections</h2>
     <p>
@@ -46,9 +46,6 @@ head($styles);
     </p>
   </div>
 </div>
-
-<img class="spread" src="images/immerse/immerse_gridimage_1.jpg" alt="" />
-<img class="spread" src="images/immerse/immerse_gridimage_2.jpg" alt="" />
 
 <!-- TODO tabbed content -->
 
@@ -64,7 +61,8 @@ head($styles);
 </p>
 
 <div class="figure">
-  <img src="images/immerse/guidemapmockupforwebsite.jpg" alt="Guide map" />
+  <img src="images/immerse/map.jpg" alt="Guide map" />
+  <img src="images/immerse/map_icons.jpg" alt="Guide map icons" />
   <div>
     <h2>Guide Map</h2>
     <p>
@@ -76,7 +74,7 @@ head($styles);
 </div>
 
 <div id="website">
-  <img src="images/immerse/immersewebframedesktop.jpg" alt="Web frame" />
+  <img src="images/immerse/website.jpg" alt="Website" />
   <h2>Online Magazine</h2>
   <p>
     I created an online version of the magazine to showcase the voice of the

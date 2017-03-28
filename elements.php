@@ -9,7 +9,7 @@ $styles = array("styles/elements.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/amazon_elements/amazon_elements_intro_image_s_2001x792.jpg" alt="Amazon Elements" />
+<img class="spread" src="images/elements/intro.jpg" alt="Amazon Elements" />
 
 <h1>Amazon Elements</h1>
 
@@ -21,9 +21,9 @@ head($styles);
   module for the vitamins &amp; supplements product line.
 </p>
 
-<img class="spread" src="images/amazon_elements/ae_transparency_showcase_desktop.jpg" alt="Transparency showcase" />
-<img class="spread" src="images/amazon_elements/ae_vitamins_showcase_desktop.jpg" alt="Vitamins showcase" />
-<img class="spread" src="images/amazon_elements/ae_wipes_showcase_desktop.jpg" alt="Babywipes showcase" />
+<img class="spread" src="images/elements/transparency_showcase.jpg" alt="Transparency showcase" />
+<img class="spread" src="images/elements/vitamins_showcase.jpg" alt="Vitamins showcase" />
+<img class="spread" src="images/elements/baby_wipes_showcase.jpg" alt="Babywipes showcase" />
 
 <p>
   The challenge of creating the brand page for Amazon Elements was to
@@ -32,12 +32,12 @@ head($styles);
   and explain the brand is a solution that leaves room for future products.
 </p>
 
-<img class="spread" src="images/amazon_elements/ae_grid_one_2000x471.jpg" alt="" />
-<img class="spread" src="images/amazon_elements/ae_grid_two_2000x702.jpg" alt="" />
-<img class="spread" src="images/amazon_elements/allvitamins_2000x716.jpg" alt="" />
+<img class="spread" src="images/elements/vitamin_d.jpg" alt="Vitamin D" />
+<img class="spread" src="images/elements/turmeric.jpg" alt="Turmeric" />
+<img class="spread" src="images/elements/vitamins.jpg" alt="Vitamins" />
 
 <div id="website">
-  <img src="images/amazon_elements/aewebmockup.jpg" alt="Website" />
+  <img src="images/elements/website.jpg" alt="Website" />
   <h2>Branding Page</h2>
   <p>
     After research and customer insights, I organized the content of the page
@@ -52,10 +52,10 @@ head($styles);
 <!-- TODO tabbed content -->
 
 <div id="mobile">
-  <img src="images/amazon_elements/ae_testing_phone_mock_turmeric.jpg" alt="Turmeric testing" />
-  <img src="images/amazon_elements/ae_testing_phone_mock_calcium.jpg" alt="Calcium testing" />
-  <img src="images/amazon_elements/ae_testing_phone_mock_vitamin_d.jpg" alt="Vitamin D testing" />
-  <img src="images/amazon_elements/ae_testing_phone_mock_vitamin_k.jpg" alt="Vitamin K testing" />
+  <img src="images/elements/turmeric_test.jpg" alt="Turmeric testing" />
+  <img src="images/elements/calcium_test.jpg" alt="Calcium testing" />
+  <img src="images/elements/vitamin_d_test.jpg" alt="Vitamin D testing" />
+  <img src="images/elements/vitamin_k_test.jpg" alt="Vitamin K testing" />
 </div>
 
 <h2>Vitamins Testing Report</h2>
