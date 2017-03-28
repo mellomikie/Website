@@ -9,7 +9,7 @@ $styles = array("styles/taf.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/taf/taf_intro_image_desktop-1024x406.jpg" alt="Texas art &amp; film" />
+<img class="spread" src="images/taf/intro.jpg" alt="Texas art &amp; film" />
 
 <h1>Texas Art &amp; Film</h1>
 
@@ -35,8 +35,8 @@ head($styles);
   conversation about their favorite films.
 </p>
 
-<img class="spread" src="images/taf/taf_oscars_ballots_2016.jpg" alt="Oscars ballots 2016" />
-<img class="spread" src="images/taf/taf_oscars_ballots_2017.jpg" alt="Oscars ballots 2017" />
+<img class="spread" src="images/taf/oscars_ballots_2016.jpg" alt="Oscars ballots 2016" />
+<img class="spread" src="images/taf/oscars_ballots_2017.jpg" alt="Oscars ballots 2017" />
 
 <h2>Event Campaigns</h2>
 

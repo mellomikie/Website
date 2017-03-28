@@ -8,13 +8,13 @@ $styles = array("styles/posters.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/posters/postersintroimage1.jpg" alt="Posters" />
+<img class="spread" src="images/posters/intro.jpg" alt="Posters" />
 
 <h1>Posters</h1>
 
 <p>The following is a collection of posters that I designed.</p>
 
-<img class="poster" src="images/posters/fucklifeposter1.jpg" alt="Lemons" />
+<img class="poster" src="images/posters/lemons.jpg" alt="Lemons" />
 
 <h2>Lemons</h2>
 
@@ -26,7 +26,7 @@ head($styles);
   cathartic.
 </p>
 
-<img class="poster" src="images/posters/snowfallingposter.jpg" alt="Snow Falling on Cedars" />
+<img class="poster" src="images/posters/snow.jpg" alt="Snow Falling on Cedars" />
 
 <h2>Snow Falling on Cedars</h2>
 
@@ -36,7 +36,7 @@ head($styles);
   the darker themes in the story such as murder and racial prejudice.
 </p>
 
-<img class="poster" src="images/posters/antiquecatposter.jpg" alt="Antique cat" />
+<img class="poster" src="images/posters/antique_cat.jpg" alt="Antique cat" />
 
 <h2>Antique Cat</h2>
 
@@ -46,7 +46,7 @@ head($styles);
   antique cat.
 </p>
 
-<img class="poster" src="images/posters/dimsumposter.jpg" alt="Dim sum" />
+<img class="poster" src="images/posters/dim_sum.jpg" alt="Dim sum" />
 
 <h2>Dim Sum</h2>
 

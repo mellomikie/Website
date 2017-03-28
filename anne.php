@@ -9,7 +9,7 @@ $styles = array("styles/anne.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/anne/anneintroimage.jpg" alt="Anne Douglass therapy" />
+<img class="spread" src="images/anne/intro.jpg" alt="Anne Douglass therapy" />
 
 <h1>Anne Douglass Therapy</h1>
 
@@ -19,7 +19,7 @@ head($styles);
   print and digital and redesigned her website.
 </p>
 
-<img id="logo" src="images/anne/annelogo.jpg" alt="Logo" />
+<img id="logo" src="images/anne/logo.jpg" alt="Logo" />
 
 <p>
   The logo was designed to express Anne’s personality, feel approachable to
@@ -28,12 +28,12 @@ head($styles);
 </p>
 
 <div id="brochure">
-  <img src="images/anne/annebrochureoutside1.jpg" alt="Brochure outside" />
-  <img src="images/anne/annebrochureinside1.jpg" alt="Brochure inside" />
+  <img src="images/anne/brochure_outside.jpg" alt="Brochure outside" />
+  <img src="images/anne/brochure_inside.jpg" alt="Brochure inside" />
 </div>
 
 <div id="website">
-  <img src="images/anne/annedouglasswebsite.jpg" alt="Website" />
+  <img src="images/anne/website.jpg" alt="Website" />
   <a class="link-box" href="http://annedouglasstherapy.com">Visit Site</a>
   <p>
     I designed the website with the user in mind. Potential clients want to see

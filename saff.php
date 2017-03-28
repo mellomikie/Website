@@ -9,7 +9,7 @@ $styles = array("styles/saff.css");
 head($styles);
 ?>
 
-<img class="spread" src="images/saff/saffintroimage1.jpg" alt="Seattle animation film festival" />
+<img class="spread" src="images/saff/intro.jpg" alt="Seattle animation film festival" />
 
 <h1>Seattle Animation Film Festival</h1>
 
@@ -20,9 +20,9 @@ head($styles);
 </p>
 
 <div id="icons">
-  <img src="images/saff/SAFFsecondimage1.png" alt="Full icon" />
-  <img src="images/saff/SAFFthirdimagee.jpg" alt="Title icon" />
-  <img src="images/saff/SAFFfourthimage.png" alt="Other icons" />
+  <img src="images/saff/full_icon.png" alt="Full icon" />
+  <img src="images/saff/title_icon.jpg" alt="Title icon" />
+  <img src="images/saff/other_icon.png" alt="Other icons" />
 </div>
 
 <h2>Iconography</h2>
@@ -41,9 +41,9 @@ head($styles);
 </div>
 
 <div id="mobile">
-  <img src="images/saff/SAFFuxscreen1.jpg" alt="Title screen" />
-  <img src="images/saff/SAFFuxscreen2.jpg" alt="Home screen" />
-  <img src="images/saff/SAFFuxscreen3.jpg" alt="Detail screen" />
+  <img src="images/saff/title_mobile.png" alt="Title screen" />
+  <img src="images/saff/home_mobile.png" alt="Home screen" />
+  <img src="images/saff/detail_mobile.png" alt="Detail screen" />
 </div>
 
 <h2>Mobial App</h2>
@@ -56,9 +56,9 @@ head($styles);
 </p>
 
 <div id="merchandise">
-  <img src="images/saff/safftshirt.png" alt="T-shirt" />
-  <img src="images/saff/safftote.png" alt="Tote" />
-  <img src="images/saff/allpins.png" alt="Pins" />
+  <img src="images/saff/tshirt.png" alt="T-shirt" />
+  <img src="images/saff/tote.png" alt="Tote" />
+  <img src="images/saff/pins.png" alt="Pins" />
 </div>
 
 <?php foot(); ?>

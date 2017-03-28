@@ -9,11 +9,11 @@ head($styles);
 
 include("Project.php");
 
-$posters = new Project("Posters", "posters.php", "images/posters/postersfeaturedimageslow1.gif");
-$antivaxx = new Project("Who are the Anti-Vaxxers?", "antivaxx.php", "images/antivaxx/AVfeaturedimage1.gif", "Anti-vaxxers");
-$taf = new Project("Texas Art &amp; Film", "taf.php", "images/taf/taf_ftd_image_1000x1000.jpg");
-$anne = new Project("Anne Douglass Therapy", "anne.php", "images/anne/annedouglassfeaturedimage.jpg", "Anne Douglass");
-$saff = new Project("Seattle Animation Film Festival", "saff.php", "images/saff/SAFFpostermockup.jpg");
+$posters = new Project("Posters", "posters.php", "images/posters/project.gif");
+$antivaxx = new Project("Who are the Anti-Vaxxers?", "antivaxx.php", "images/antivaxx/project.gif", "Anti-vaxxers");
+$taf = new Project("Texas Art &amp; Film", "taf.php", "images/taf/project.jpg");
+$anne = new Project("Anne Douglass Therapy", "anne.php", "images/anne/project.jpg", "Anne Douglass");
+$saff = new Project("Seattle Animation Film Festival", "saff.php", "images/saff/project.jpg");
 $catnip = new Project("Catnip", "catnip.php", "images/catnip/catnipprojectmockupgif3.gif");
 $immerse = new Project("Immerse", "immerse.php", "images/immerse/immersemockup.jpg");
 $link = new Project("Link", "link.php", "images/link/linkpassmockup.jpg");
