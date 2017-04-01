@@ -7,6 +7,8 @@ website.
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
   min-width: 320px;
   max-width: 700px;
   margin-left: auto;
@@ -26,6 +28,8 @@ p + img, img + img {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
   min-width: 320px;
   max-width: 700px;
   margin-left: auto;

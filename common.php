@@ -131,30 +131,3 @@ function portfolio($portfolio) {
 
 <?php
 }
-
-# Displays the given tabbed content.
-function tabs($tabs) {
-  ?>
-
-  <div id="tabs">
-
-    <?php foreach ($tabs as $tab) { ?>
-
-      <button class="tab"><?= $tab->getTitle() ?></button>
-
-    <?php } ?>
-
-  </div>
-  <div id="tabbed-content">
-
-    <?php foreach ($tabs as $tab) { ?>
-
-      <img src="<?= $project->getImage() ?>" alt="<?= $project->getImageTitle() ?>" />
-
-    <?php } ?>
-
-  </div>
-
-  <?php
-}
-?>
