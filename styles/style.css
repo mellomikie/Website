@@ -32,7 +32,7 @@ h1 {
   letter-spacing: .08em;
 }
 
-h1 > span {
+h1 > span, h2 > span {
   font-size: .9em;
   letter-spacing: normal;
   text-transform: none;
@@ -102,9 +102,40 @@ iframe {
   margin-right: auto;
 }
 
+.project a, .project img {
+  display: block;
+}
+
 .project, .project img {
   max-width: 380px;
   width: 100%;
+}
+
+.project h2 {
+  color: rgba(74,74,74, 1);
+  visibility: hidden;
+  position: relative;
+  top: 190px;
+  height: 0px;
+  margin: 0px;
+}
+
+.project:hover img {
+  opacity: 0.2;
+}
+
+.project:hover h2 {
+  visibility: visible;
+}
+
+@media (max-width:767px){
+  .project, .project img {
+  	max-width: 320px;
+  }
+
+  .project h2 {
+    top: 160px;
+  }
 }
 
 /* Style rules for link boxes */

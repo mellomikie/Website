@@ -1,12 +1,12 @@
 /* This is the style sheet for the main page of Michael's website. */
 
 #intro {
-	text-align: left;
-	color: rgba(74,74,74, 1);
-	font-size: 1.8em;
-	line-height: 1.4em;
+  text-align: left;
+  color: rgba(74,74,74, 1);
+  font-size: 1.8em;
+  line-height: 1.4em;
   width: 650px;
-	margin: 0px auto;
+  margin: 100px auto;
 }
 
 #intro img {

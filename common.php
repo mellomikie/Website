@@ -26,15 +26,7 @@ function head($styles = NULL, $scripts = NULL) {
     </head>
     <body>
       <header>
-        <div id="intro">
-          <a href="mellomikie.com" target="_blank">
-            <img src="images/home/logoforweb.svg" alt="Michael's logo" />
-          </a>
-          <p>
-            Seattle based designer specializing in visual identity and creative
-            strategy with a user-centered focus
-          </p>
-        </div>
+        <!-- TODO add header here -->
       </header>
 
       <?php
@@ -125,7 +117,11 @@ function portfolio($portfolio) {
     <?php foreach ($portfolio as $project) { ?>
 
       <div class="project">
-        <h2><?= $project->getTitle() ?></h2>
+        <h2>
+          <?= $project->getTitle() ?>
+          <br />
+          <span>Add description here</span>
+        </h2>
         <a href="<?= $project->getLink() ?>">
           <img src="<?= $project->getImage() ?>" alt="<?= $project->getImageTitle() ?>" />
         </a>
