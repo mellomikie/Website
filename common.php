@@ -26,9 +26,15 @@ function head($styles = NULL, $scripts = NULL) {
     </head>
     <body>
       <header>
-        <a href="mellomikie.com" target="_blank">
-          <img src="images/home/logoforweb.svg" alt="Michael's logo" />
-        </a>
+        <div id="intro">
+          <a href="mellomikie.com" target="_blank">
+            <img src="images/home/logoforweb.svg" alt="Michael's logo" />
+          </a>
+          <p>
+            Seattle based designer specializing in visual identity and creative
+            strategy with a user-centered focus
+          </p>
+        </div>
       </header>
 
       <?php

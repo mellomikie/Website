@@ -1,5 +1,32 @@
 /* This is the style sheet for the main page of Michael's website. */
 
+#intro {
+	text-align: left;
+	color: rgba(74,74,74, 1);
+	font-size: 1.8em;
+	line-height: 1.4em;
+  width: 650px;
+	margin: 0px auto;
+}
+
+#intro img {
+  width: 150px;
+}
+
+#intro > p {
+  max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px;
+}
+
+@media (max-width:800px){
+  #intro {
+  	width: 85%;
+    font-size: 1.7em;
+  }
+}
+
 #about {
   background-color: #eaeaea;
   color: #808080;
@@ -13,5 +40,5 @@ a.link-box {
 }
 
 footer {
-  margin-top: 0;
+  margin-top: 0px;
 }
