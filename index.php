@@ -3,7 +3,7 @@
 
 include("common.php");
 
-$styles = array("styles/index.css", "styles/portfolio.css");
+$styles = array("styles/index.css");
 
 head($styles);
 
