@@ -5,7 +5,7 @@
 (function() {
   // Load Typekit
   try {
-    Typekit.load({ async: true });
+    Typekit.load({ async: false });
   } catch(e) {
     // TODO handle exception
     console.log(e);
