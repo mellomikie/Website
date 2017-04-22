@@ -1,29 +1,27 @@
 /* This is the style sheet for the main page of Michael's website. */
 
 #intro {
+  font-size: 1.7em;
+	color: #515151;
   text-align: left;
-	color: rgba(81,81,81, 1);
-	font-size: 2em;
-	line-height: 1.4em;
-  width: 650px;
-  margin: 100px auto;
+  min-width: inherit;
+  max-width: 570px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#intro a {
+  display: block;
+  margin-bottom: 20px;
 }
 
 #intro img {
   width: 150px;
 }
 
-#intro > p {
-  max-width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 0px;
-}
-
-@media (max-width:800px){
+@media (max-width: 767px) {
   #intro {
-  	width: 85%;
-    font-size: 1.7em;
+    width: 85%;
   }
 }
 
@@ -40,5 +38,5 @@ a.link-box {
 }
 
 footer {
-  margin-top: 0px;
+  margin-top: 0;
 }

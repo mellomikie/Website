@@ -8,15 +8,13 @@ $styles = array("styles/index.css");
 head($styles);
 ?>
 
-<div id="intro">
+<p id="intro">
   <a href="mellomikie.com" target="_blank">
     <img src="images/home/logoforweb.svg" alt="Michael's logo" />
   </a>
-  <p>
-    Seattle based designer specializing in visual identity and creative strategy
-    with a user-centered focus
-  </p>
-</div>
+  Seattle based designer specializing in visual identity and creative strategy
+  with a user-centered focus
+</p>
 
 <?php
 include("Project.php");

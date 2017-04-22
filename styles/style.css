@@ -8,11 +8,12 @@ body {
   font-family: "adobe-garamond-pro", "Garamond", serif;
   font-size: 12pt;
   text-align: center;
-  line-height: 1.5em;
-  margin: 0px;
-  padding: 0px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
   background-color: #fcfcfc;
-  color:rgb(60, 60, 60);
+  color: #3c3c3c;
+  /* font smoothing */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -24,7 +25,7 @@ h1, h2 {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 h1 {
@@ -52,7 +53,7 @@ p {
   max-width: 480px;
   padding-left: 10px;
   padding-right: 10px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 /* Global style rules for anchors */
@@ -98,6 +99,7 @@ iframe {
   flex-wrap: wrap;
   min-width: 320px;
   max-width: 1140px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -107,34 +109,38 @@ iframe {
 }
 
 .project, .project img {
-  max-width: 380px;
-  width: 100%;
+  width: 380px;
 }
 
 .project h2 {
-  color: rgba(74,74,74, 1);
+  color: #4a4a4a;
   visibility: hidden;
   position: relative;
   top: 190px;
-  height: 0px;
-  margin: 0px;
+  height: 0;
+  margin: 0;
 }
 
 .project:hover img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .project:hover h2 {
   visibility: visible;
 }
 
-@media (max-width:767px){
+@media (max-width: 767px) { /* 767px */
   .project, .project img {
-  	max-width: 320px;
+    min-width: 320px;
+    width: 100%;
   }
 
-  .project h2 {
-    top: 160px;
+  .project:hover h2 {
+    visibility: hidden;
+  }
+
+  .project:hover img {
+    opacity: 1;
   }
 }
 
@@ -189,16 +195,6 @@ img.spread {
 }
 
 /* Style rules for header */
-
-header {
-  text-align: center;
-  padding-top: 150px;
-  padding-bottom: 150px;
-}
-
-header img {
-  width: 190px;
-}
 
 /* Style rules for footer */
 
