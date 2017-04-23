@@ -12,7 +12,7 @@ h1, h2 {
   font-size: 1.7em;
 	color: #515151;
   text-align: left;
-  max-width: 570px;
+  max-width: 635px;
   margin-top: 130px;
   margin-bottom: 130px;
 }
@@ -28,6 +28,7 @@ h1, h2 {
 
 @media (max-width: 767px) {
   #intro {
+    font-size: 1.5em;
     width: 85%;
     margin-top: 100px;
     margin-bottom: 100px;
