@@ -9,7 +9,7 @@ $styles = array("styles/anne.css");
 print_top($styles);
 ?>
 
-<img class="spread" src="images/anne/intro.jpg" alt="Anne Douglass therapy" />
+<img class="intro spread" src="images/anne/intro.jpg" alt="Anne Douglass therapy" />
 
 <h1>Anne Douglass Therapy</h1>
 

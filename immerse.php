@@ -8,7 +8,7 @@ $styles = array("styles/immerse.css");
 print_top($styles);
 ?>
 
-<img class="spread" src="images/immerse/intro.jpg" alt="Immerse" />
+<img class="intro spread" src="images/immerse/intro.jpg" alt="Immerse" />
 
 <h1>Immerse</h1>
 

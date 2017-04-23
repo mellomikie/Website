@@ -9,7 +9,7 @@ $styles = array("styles/elements.css");
 print_top($styles);
 ?>
 
-<img class="spread" src="images/elements/intro.jpg" alt="Amazon Elements" />
+<img class="intro spread" src="images/elements/intro.jpg" alt="Amazon Elements" />
 
 <h1>Amazon Elements</h1>
 

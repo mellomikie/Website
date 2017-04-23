@@ -8,7 +8,7 @@ $styles = array("styles/posters.css");
 print_top($styles);
 ?>
 
-<img class="spread" src="images/posters/intro.jpg" alt="Posters" />
+<img class="intro spread" src="images/posters/intro.jpg" alt="Posters" />
 
 <h1>Posters</h1>
 
