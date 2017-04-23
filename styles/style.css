@@ -6,7 +6,7 @@
 
 body {
   font-family: "adobe-garamond-pro", "Garamond", serif;
-  font-size: 12pt;
+  font-size: 14pt;
   text-align: center;
   line-height: 1.5;
   margin: 0;
@@ -49,10 +49,10 @@ h2 {
 p {
   font-family: "adobe-garamond-pro", "Garamond", serif;
   text-align: left;
-  min-width: 300px;
-  max-width: 480px;
-  padding-left: 10px;
-  padding-right: 10px;
+  min-width: 280px;
+  max-width: 460px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -100,8 +100,8 @@ iframe {
   min-width: 320px;
   max-width: 1140px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 130px auto;
+
 }
 
 .project a, .project img {
@@ -129,7 +129,11 @@ iframe {
   visibility: visible;
 }
 
-@media (max-width: 767px) { /* 767px */
+@media (max-width: 767px) {
+  #portfolio {
+    margin: 100px auto;
+  }
+
   .project, .project img {
     min-width: 320px;
     width: 100%;

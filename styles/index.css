@@ -4,10 +4,8 @@
   font-size: 1.7em;
 	color: #515151;
   text-align: left;
-  min-width: inherit;
   max-width: 570px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 130px;
 }
 
 #intro a {
@@ -22,6 +20,7 @@
 @media (max-width: 767px) {
   #intro {
     width: 85%;
+    margin-top: 100px;
   }
 }
 
