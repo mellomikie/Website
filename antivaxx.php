@@ -5,14 +5,13 @@ include("common.php");
 
 $styles = array("styles/antivaxx.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <img class="spread" src="images/antivaxx/AVintroimagedesktop.jpg" alt="Anti-vaxxers" />
 
 <h1>
   Who are the Anti-Vaxxers?
-  <br />
   <span>
     In collaboration with
     <br />
@@ -85,4 +84,4 @@ head($styles);
   movement.
 </p>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

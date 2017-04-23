@@ -5,7 +5,7 @@ include("common.php");
 
 $styles = array("styles/posters.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <img class="spread" src="images/posters/intro.jpg" alt="Posters" />
@@ -55,4 +55,4 @@ head($styles);
   dim sum as well as my love for puns.
 </p>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

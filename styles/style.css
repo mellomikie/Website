@@ -18,45 +18,54 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Global style rules for headers */
-
 h1, h2 {
-  font-family: "europa", sans-serif;
-  font-weight: 300;
+  font-weight: normal;
+  letter-spacing: .06em;
   text-align: center;
   text-transform: uppercase;
-  margin: 10px 0;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 1em;
-  letter-spacing: .08em;
-}
-
-h1 > span, h2 > span {
-  font-size: .9em;
-  letter-spacing: normal;
-  text-transform: none;
+  font-size: 1.6em;
 }
 
 h2 {
-  font-size: .9em;
-  letter-spacing: .05em;
+  font-size: 1em;
 }
 
-/* Global style rules for paragraphs */
+h1 > span, h2 > span {
+  display: block;
+  font-size: 12pt;
+  font-style: italic;
+  letter-spacing: normal;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 0.8em;
+  }
+}
 
 p {
   font-family: "adobe-garamond-pro", "Garamond", serif;
   text-align: left;
   min-width: 280px;
   max-width: 460px;
-  padding-left: 20px;
-  padding-right: 20px;
   margin: 0 auto;
 }
 
-/* Global style rules for anchors */
+h1, h2, p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 a {
   text-decoration: none;
@@ -64,7 +73,47 @@ a {
   color: inherit;
 }
 
-/* Global style rules for inline frames */
+/* Style rules for header */
+
+header {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header img {
+  width: 150px;
+}
+
+/* Style rules for footer */
+
+footer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #eaeaea;
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+footer > a {
+  margin-left: 10px;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+}
+
+footer a.link-box {
+  padding: 4px;
+  font-size: .8em;
+  letter-spacing: .1em;
+  background-color: white;
+}
+
+/* Style rules for inline frames */
 
 iframe {
   min-width: 320px;
@@ -162,6 +211,16 @@ img.spread {
   width: 100%;
 }
 
+img.intro.spread {
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767px) {
+  img.intro.spread {
+    margin-bottom: 40px;
+  }
+}
+
 /* Style rules for figures */
 
 .figure {
@@ -182,7 +241,7 @@ img.spread {
 }
 
 .figure p {
-  width: 300px;
+  width: 280px;
 }
 
 .figure:nth-child(odd) {
@@ -191,36 +250,6 @@ img.spread {
 
 .figure:nth-child(even) {
   flex-direction: row-reverse;
-}
-
-/* Style rules for header */
-
-/* Style rules for footer */
-
-footer {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: #eaeaea;
-  margin-top: 20px;
-  padding: 10px 20px;
-}
-
-footer > a {
-  margin-left: 10px;
-}
-
-footer img {
-  width: 25px;
-  height: 25px;
-}
-
-footer a.link-box {
-  padding: 4px;
-  font-size: .8em;
-  letter-spacing: .1em;
-  background-color: white;
 }
 
 /* Style rules for website mockup */

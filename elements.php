@@ -6,7 +6,7 @@ include("common.php");
 
 $styles = array("styles/elements.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <img class="spread" src="images/elements/intro.jpg" alt="Amazon Elements" />
@@ -72,4 +72,4 @@ head($styles);
   vitamin.
 </p>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

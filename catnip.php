@@ -5,14 +5,13 @@ include("common.php");
 
 $styles = array("styles/catnip.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <img class="spread" src="images/catnip/intro.jpg" alt="Catnip" />
 
 <h1>
   Catnip
-  <br />
   <span>In collaboration with Caitlin Esworthy</span>
 </h1>
 
@@ -97,4 +96,4 @@ head($styles);
   were created using 3D modeling software.
 </p>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

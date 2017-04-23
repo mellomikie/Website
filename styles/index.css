@@ -1,5 +1,13 @@
 /* This is the style sheet for the main page of Michael's website. */
 
+header {
+  display: none;
+}
+
+h1, h2 {
+  font-family: "europa", sans-serif;
+}
+
 #intro {
   font-size: 1.7em;
 	color: #515151;

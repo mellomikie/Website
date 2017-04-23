@@ -5,7 +5,7 @@ include("common.php");
 
 $styles = array("styles/link.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <img class="spread" src="images/link/intro.jpg" alt="Link" />
@@ -72,4 +72,4 @@ head($styles);
   </div>
 </div>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

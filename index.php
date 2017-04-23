@@ -5,13 +5,13 @@ include("common.php");
 
 $styles = array("styles/index.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <p id="intro">
-  <a href="mellomikie.com" target="_blank">
-    <img src="images/home/logoforweb.svg" alt="Michael's logo" />
-  </a>
+
+  <?php print_logo(); ?>
+
   Seattle based designer specializing in visual identity and creative strategy
   with a user-centered focus
 </p>
@@ -46,4 +46,4 @@ portfolio($portfolio);
   </p>
 </div>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

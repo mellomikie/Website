@@ -1,8 +1,8 @@
 <?php
 # This is the PHP file for common code on Michael's website.
 
-# Prints page header with the given style sheets and scripts.
-function head($styles = NULL, $scripts = NULL) {
+# Prints the top of the page with the given style sheets and scripts.
+function print_top($styles = NULL, $scripts = NULL) {
   ?>
 
   <!DOCTYPE html>
@@ -25,30 +25,16 @@ function head($styles = NULL, $scripts = NULL) {
 
     </head>
     <body>
-      <header>
-        <!-- TODO add header here -->
-      </header>
 
       <?php
+      print_header();
 }
 
-# Prints page footer.
-function foot() {
+# Prints the bottom of the page.
+function print_bottom() {
+  print_footer();
   ?>
 
-      <footer>
-        <a class="link-box" href="mailto:hi@mellomikie.com">Email</a>
-        <a class="link-box" href="documents/mwresume.pdf">Resume</a>
-        <a href="http://www.facebook.com/michael.woody.10" target="_blank">
-          <img src="images/home/facebook.png" alt="Facebook" />
-        </a>
-        <a href="http://www.linkedin.com/in/michael-woody-64a6507" target="_blank">
-          <img src="images/home/linkedin.png" alt="LinkedIn" />
-        </a>
-        <a href="http://www.instagram.com/mellomikie" target="_blank">
-          <img src="images/home/instagram.png" alt="Instagram" />
-        </a>
-      </footer>
     </body>
   </html>
 
@@ -75,6 +61,51 @@ function add_scripts($scripts) {
 
     <?php
   }
+}
+
+# Prints the page header.
+function print_header() {
+  ?>
+
+  <header>
+
+    <?php print_logo(); ?>
+
+  </header>
+
+  <?php
+}
+
+# Prints the page footer.
+function print_footer() {
+  ?>
+
+  <footer>
+    <a class="link-box" href="mailto:hi@mellomikie.com">Email</a>
+    <a class="link-box" href="documents/mwresume.pdf">Resume</a>
+    <a href="http://www.facebook.com/michael.woody.10" target="_blank">
+      <img src="images/home/facebook.png" alt="Facebook" />
+    </a>
+    <a href="http://www.linkedin.com/in/michael-woody-64a6507" target="_blank">
+      <img src="images/home/linkedin.png" alt="LinkedIn" />
+    </a>
+    <a href="http://www.instagram.com/mellomikie" target="_blank">
+      <img src="images/home/instagram.png" alt="Instagram" />
+    </a>
+  </footer>
+
+  <?php
+}
+
+# Prints the logo.
+function print_logo() {
+  ?>
+
+  <a href="mellomikie.com" target="_blank">
+    <img src="images/home/logoforweb.svg" alt="Michael's logo" />
+  </a>
+
+  <?php
 }
 
 # Prints warning message if JavaScript is disabled.

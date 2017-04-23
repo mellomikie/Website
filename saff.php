@@ -6,10 +6,10 @@ include("common.php");
 
 $styles = array("styles/saff.css");
 
-head($styles);
+print_top($styles);
 ?>
 
-<img class="spread" src="images/saff/intro.jpg" alt="Seattle animation film festival" />
+<img class="intro spread" src="images/saff/intro.jpg" alt="Seattle animation film festival" />
 
 <h1>Seattle Animation Film Festival</h1>
 
@@ -61,4 +61,4 @@ head($styles);
   <img src="images/saff/pins.png" alt="Pins" />
 </div>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

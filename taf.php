@@ -6,10 +6,10 @@ include("common.php");
 
 $styles = array("styles/taf.css");
 
-head($styles);
+print_top($styles);
 ?>
 
-<img class="spread" src="images/taf/intro.jpg" alt="Texas art &amp; film" />
+<img class="intro spread" src="images/taf/intro.jpg" alt="Texas art &amp; film" />
 
 <h1>Texas Art &amp; Film</h1>
 
@@ -70,4 +70,4 @@ head($styles);
   </p>
 </div>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

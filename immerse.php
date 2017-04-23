@@ -5,7 +5,7 @@ include("common.php");
 
 $styles = array("styles/immerse.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <img class="spread" src="images/immerse/intro.jpg" alt="Immerse" />
@@ -83,4 +83,4 @@ head($styles);
   <a class="link-box" href="http://mellomikie.com/immerse/">Visit Site</a>
 </div>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>

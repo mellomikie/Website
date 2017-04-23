@@ -6,7 +6,7 @@ include("common.php");
 
 $styles = array("styles/anne.css");
 
-head($styles);
+print_top($styles);
 ?>
 
 <img class="spread" src="images/anne/intro.jpg" alt="Anne Douglass therapy" />
@@ -43,4 +43,4 @@ head($styles);
   </p>
 </div>
 
-<?php foot(); ?>
+<?php print_bottom(); ?>
