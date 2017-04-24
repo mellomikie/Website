@@ -240,7 +240,7 @@ img.intro.spread {
   width: 320px;
 }
 
-.figure p {
+.figure h1, .figure h2, .figure p {
   width: 280px;
 }
 
