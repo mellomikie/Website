@@ -8,10 +8,10 @@ img#logo {
   min-width: 320px;
   max-width: 500px;
   width: 100%;
-  margin-top: 20px;
+  margin: 40px 0;
 }
 
-#mobile, #characters {
+#characters {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -19,10 +19,10 @@ img#logo {
   align-items: center;
   min-width: 320px;
   max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto;
 }
 
-#mobile > img, #characters > img {
-  width: 230px;
+#characters > img {
+  width: 200px;
+  margin-top: 20px;
 }

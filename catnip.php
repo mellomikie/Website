@@ -24,12 +24,6 @@ print_top($styles);
 
 <img id="logo" src="images/catnip/logo.png" alt="Logo" />
 
-<div id="mobile">
-  <img src="images/catnip/play_screen.jpg" alt="Play screen" />
-  <img src="images/catnip/chat_screen.jpg" alt="Chat screen" />
-  <img src="images/catnip/find_screen.jpg" alt="Find screen" />
-</div>
-
 <p>
   Catnip has two primary functions: exploring the city to discover digital cat
   locations and playfully interacting with your collected cats. We explored both
@@ -37,9 +31,13 @@ print_top($styles);
   user research, heuristics and testing.
 </p>
 
-<!-- TODO tabbed content -->
+<div id="mobile">
+  <img src="images/catnip/play_screen.jpg" alt="Play screen" />
+  <img src="images/catnip/chat_screen.jpg" alt="Chat screen" />
+  <img src="images/catnip/find_screen.jpg" alt="Find screen" />
+</div>
 
-<iframe src="https://player.vimeo.com/video/167828969"></iframe>
+<!-- TODO tabbed content -->
 
 <h2>Marketing Video</h2>
 
@@ -48,7 +46,7 @@ print_top($styles);
   the 3D models in real space to show how the user can interact within the app.
 </p>
 
-<iframe src="https://player.vimeo.com/video/167835395"></iframe>
+<iframe src="https://player.vimeo.com/video/167828969"></iframe>
 
 <h2>User Goal One</h2>
 
@@ -59,7 +57,7 @@ print_top($styles);
   friends.
 </p>
 
-<iframe src="https://player.vimeo.com/video/167836344"></iframe>
+<iframe src="https://player.vimeo.com/video/167835395"></iframe>
 
 <h2>User Goal Two</h2>
 
@@ -70,7 +68,7 @@ print_top($styles);
   messaging, gifting, taking photos or sharing.
 </p>
 
-<iframe src="https://player.vimeo.com/video/167835181"></iframe>
+<iframe src="https://player.vimeo.com/video/167836344"></iframe>
 
 <h2>User Goal Three</h2>
 
@@ -80,11 +78,7 @@ print_top($styles);
   to easily share their experiences in Catnip.
 </p>
 
-<div id="characters">
-  <img src="images/catnip/space_kitty.jpg" alt="Space kitty" />
-  <img src="images/catnip/cupcake_kitty.jpg" alt="Cupcake kitty" />
-  <img src="images/catnip/dapper_kitty.jpg" alt="Dapper kitty" />
-</div>
+<iframe src="https://player.vimeo.com/video/167835181"></iframe>
 
 <h2>Character Design</h2>
 
@@ -95,5 +89,11 @@ print_top($styles);
   unique personality that is also expressed in their appearance. The characters
   were created using 3D modeling software.
 </p>
+
+<div id="characters">
+  <img src="images/catnip/space_kitty.jpg" alt="Space kitty" />
+  <img src="images/catnip/cupcake_kitty.jpg" alt="Cupcake kitty" />
+  <img src="images/catnip/dapper_kitty.jpg" alt="Dapper kitty" />
+</div>
 
 <?php print_bottom(); ?>

@@ -72,8 +72,6 @@ print_top($styles);
   </div>
 </div>
 
-<img id="infograph" src="images/antivaxx/antivaxxerfinalposter.jpg" alt="Infographic poster" />
-
 <h2>Infograph</h2>
 
 <p>
@@ -83,5 +81,7 @@ print_top($styles);
   who the anti-vaxxers are, where they can be found and the history of the
   movement.
 </p>
+
+<img id="infograph" src="images/antivaxx/antivaxxerfinalposter.jpg" alt="Infographic poster" />
 
 <?php print_bottom(); ?>

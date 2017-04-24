@@ -24,6 +24,7 @@ h1, h2 {
   text-align: center;
   text-transform: uppercase;
   line-height: 1.2;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -93,7 +94,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   background-color: #eaeaea;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 10px 20px;
 }
 
@@ -227,6 +228,7 @@ img.intro.spread {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  flex-direction: column-reverse;
   align-content: space-around;
   align-items: center;
   min-width: 320px;
@@ -237,6 +239,12 @@ img.intro.spread {
 }
 
 .figure > img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/*
+.figure > img {
   width: 320px;
 }
 
@@ -245,20 +253,21 @@ img.intro.spread {
 }
 
 .figure:nth-child(odd) {
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .figure:nth-child(even) {
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
+*/
 
 /* Style rules for website mockup */
 
 #website {
   min-width: 320px;
-  max-width: 500px;
+  max-width: 700px;
   width: 100%;
-  margin: 20px auto;
+  margin: 40px auto;
 }
 
 #website > img {
@@ -267,9 +276,30 @@ img.intro.spread {
 
 #website > img, #website > video {
   width: 100%;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
 #website > p {
+  margin-bottom: 20px;
+}
+
+/* Style rules for mobile */
+
+#mobile {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  min-width: 320px;
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+#mobile > img {
+  min-width: 150px;
+  max-width: 300px;
+  width: 200px;
   margin-top: 20px;
 }

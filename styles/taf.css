@@ -3,45 +3,9 @@ This is the style sheet for the Texas art and film project page of Michael's
 website.
 */
 
-#mobile {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-content: space-around;
-  align-items: center;
+body > img {
   min-width: 320px;
   max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-}
-
-#mobile > img {
-  width: 320px;
-}
-
-p + img, img + img {
-  margin-top: 20px;
-}
-
-#festivals {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-content: space-around;
-  align-items: center;
-  min-width: 320px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  /* background-color: #eaeaea; */
-}
-
-#festivals > img {
-  width: 320px;
-}
-
-#festivals p {
-  width: 300px;
+  width: 100%;
+  margin: 20px auto;
 }

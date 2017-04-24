@@ -61,6 +61,7 @@ print_top($styles);
 </p>
 
 <div class="figure">
+  <img src="images/immerse/map_icons.jpg" alt="Guide map" />
   <img src="images/immerse/map.jpg" alt="Guide map" />
   <div>
     <h2>Guide Map</h2>
@@ -73,7 +74,6 @@ print_top($styles);
 </div>
 
 <div id="website">
-  <img src="images/immerse/website.jpg" alt="Website" />
   <h2>Online Magazine</h2>
   <p>
     I created an online version of the magazine to showcase the voice of the
@@ -81,6 +81,7 @@ print_top($styles);
     content, the website shows how the publication would reach a broader audience.
   </p>
   <a class="link-box" href="http://mellomikie.com/immerse/">Visit Site</a>
+  <img src="images/immerse/website.jpg" alt="Website" />
 </div>
 
 <?php print_bottom(); ?>

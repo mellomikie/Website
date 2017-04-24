@@ -11,8 +11,7 @@ Michael's website.
   align-items: center;
   min-width: 320px;
   max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto;
 }
 
 #icons > img {
@@ -23,7 +22,7 @@ Michael's website.
   width: 100%;
 }
 
-#mobile, #merchandise {
+#merchandise {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -31,10 +30,12 @@ Michael's website.
   align-items: center;
   min-width: 320px;
   max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 40px auto;
 }
 
-#mobile > img, #merchandise > img {
-  width: 230px;
+#merchandise > img {
+  min-width: 150px;
+  max-width: 300px;
+  width: 200px;
+  margin-top: 20px;
 }

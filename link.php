@@ -20,9 +20,6 @@ print_top($styles);
   advertising, web, and environmental graphics.
 </p>
 
-<img id="small-logo" src="images/link/logo.png" alt="Logo" />
-<img id="big-logo" src="images/link/tag_line.jpg" alt="Let's move forward" />
-
 <h2>Logo &amp; Concept</h2>
 
 <p>
@@ -31,6 +28,9 @@ print_top($styles);
   the yellow is for progress. Where they meet is Link, which is a catalyst for
   changing direction and moving forward.
 </p>
+
+<img id="small-logo" src="images/link/logo.png" alt="Logo" />
+<img id="big-logo" src="images/link/tag_line.jpg" alt="Let's move forward" />
 
 <!-- TODO tabbed content -->
 

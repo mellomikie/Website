@@ -35,9 +35,6 @@ print_top($styles);
   conversation about their favorite films.
 </p>
 
-<img class="spread" src="images/taf/oscars_ballots_2016.jpg" alt="Oscars ballots 2016" />
-<img class="spread" src="images/taf/oscars_ballots_2017.jpg" alt="Oscars ballots 2017" />
-
 <h2>Event Campaigns</h2>
 
 <p>
@@ -46,21 +43,22 @@ print_top($styles);
   traffic driving graphics to promote the events.
 </p>
 
-<div id="festivals">
-  <img src="images/taf/festivals.png" alt="Festivals" />
-  <div>
-    <h2>Content Management</h2>
-    <p>
-      I organized years of festival coverage into a film festival section that
-      offers various types of content including video interviews, film reviews,
-      and articles about the festival.
-    </p>
-  </div>
-</div>
+<img src="images/taf/oscars_ballots_2016.jpg" alt="Oscars ballots 2016" />
+
+<img src="images/taf/oscars_ballots_2017.jpg" alt="Oscars ballots 2017" />
+
+<h2>Content Management</h2>
+
+<p>
+  I organized years of festival coverage into a film festival section that
+  offers various types of content including video interviews, film reviews,
+  and articles about the festival.
+</p>
+
+<img src="images/taf/festivals.png" alt="Festivals" />
 
 <div id="website">
-  <img src="images/taf/website.jpeg" alt="Website" />
-  <a class="link-box" href="http://www.texasartfilm.net">Visit Site</a>
+  <h2>Website</h2>
   <p>
     After analyzing the content and user research, I designed the final layout
     of the site to offer custom banners that show the user what is new on the
@@ -68,6 +66,8 @@ print_top($styles);
     coverage as well as awards coverage. After the redesign, user traffic
     increased by 150%.
   </p>
+  <a class="link-box" href="http://www.texasartfilm.net">Visit Site</a>
+  <img id="website" src="images/taf/website.jpeg" alt="Website" />
 </div>
 
 <?php print_bottom(); ?>

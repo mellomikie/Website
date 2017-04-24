@@ -14,8 +14,6 @@ print_top($styles);
 
 <p>The following is a collection of posters that I designed.</p>
 
-<img class="poster" src="images/posters/lemons.jpg" alt="Lemons" />
-
 <h2>Lemons</h2>
 
 <p>
@@ -26,7 +24,7 @@ print_top($styles);
   cathartic.
 </p>
 
-<img class="poster" src="images/posters/snow.jpg" alt="Snow Falling on Cedars" />
+<img class="poster" src="images/posters/lemons.jpg" alt="Lemons" />
 
 <h2>Snow Falling on Cedars</h2>
 
@@ -36,7 +34,7 @@ print_top($styles);
   the darker themes in the story such as murder and racial prejudice.
 </p>
 
-<img class="poster" src="images/posters/antique_cat.jpg" alt="Antique cat" />
+<img class="poster" src="images/posters/snow.jpg" alt="Snow Falling on Cedars" />
 
 <h2>Antique Cat</h2>
 
@@ -46,7 +44,7 @@ print_top($styles);
   antique cat.
 </p>
 
-<img class="poster" src="images/posters/dim_sum.jpg" alt="Dim sum" />
+<img class="poster" src="images/posters/antique_cat.jpg" alt="Antique cat" />
 
 <h2>Dim Sum</h2>
 
@@ -54,5 +52,7 @@ print_top($styles);
   This poster is inspired by the variety of delicious food that comes with
   dim sum as well as my love for puns.
 </p>
+
+<img class="poster" src="images/posters/dim_sum.jpg" alt="Dim sum" />
 
 <?php print_bottom(); ?>

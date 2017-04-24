@@ -23,7 +23,7 @@ print_top($styles);
 
 <p>
   The logo was designed to express Anne’s personality, feel approachable to
-  new clients and have the personal touch of a signature. I collaborated with
+  new clients, and have the personal touch of a signature. I collaborated with
   Ana Raab for photography used on the brochure and website.
 </p>
 
@@ -33,14 +33,15 @@ print_top($styles);
 </div>
 
 <div id="website">
-  <img src="images/anne/website.jpg" alt="Website" />
-  <a class="link-box" href="http://annedouglasstherapy.com">Visit Site</a>
+  <h2>Website</h2>
   <p>
     I designed the website with the user in mind. Potential clients want to see
     the therapist they are considering so I made Anne the focal point of the
     site, providing important information and a method of contact at all times.
     The color palette and imagery is relaxing and approachable.
   </p>
+  <a class="link-box" href="http://annedouglasstherapy.com">Visit Site</a>
+  <img src="images/anne/website.jpg" alt="Website" />
 </div>
 
 <?php print_bottom(); ?>

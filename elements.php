@@ -37,7 +37,6 @@ print_top($styles);
 <img class="spread" src="images/elements/vitamins.jpg" alt="Vitamins" />
 
 <div id="website">
-  <img src="images/elements/website.jpg" alt="Website" />
   <h2>Branding Page</h2>
   <p>
     After research and customer insights, I organized the content of the page
@@ -47,16 +46,10 @@ print_top($styles);
     products into categories for an easier shopping experience that allows for
     future product to easily be added.
   </p>
+  <img src="images/elements/website.jpg" alt="Website" />
 </div>
 
 <!-- TODO tabbed content -->
-
-<div id="mobile">
-  <img src="images/elements/turmeric_test.jpg" alt="Turmeric testing" />
-  <img src="images/elements/calcium_test.jpg" alt="Calcium testing" />
-  <img src="images/elements/vitamin_d_test.jpg" alt="Vitamin D testing" />
-  <img src="images/elements/vitamin_k_test.jpg" alt="Vitamin K testing" />
-</div>
 
 <h2>Vitamins Testing Report</h2>
 
@@ -71,5 +64,12 @@ print_top($styles);
   while color coding the report with the brand colors of each individual
   vitamin.
 </p>
+
+<div id="mobile">
+  <img src="images/elements/turmeric_test.jpg" alt="Turmeric testing" />
+  <img src="images/elements/calcium_test.jpg" alt="Calcium testing" />
+  <img src="images/elements/vitamin_d_test.jpg" alt="Vitamin D testing" />
+  <img src="images/elements/vitamin_k_test.jpg" alt="Vitamin K testing" />
+</div>
 
 <?php print_bottom(); ?>
